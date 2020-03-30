@@ -29,7 +29,7 @@
 
   <meta name="viewport" content="width=device-width">
   
-  <title>spring-framework-petclinic/azure-pipelines.yml at master · govindvsg/spring-framework-petclinic</title>
+  <title>spring-framework-petclinic/mvnw.cmd at master · govindvsg/spring-framework-petclinic</title>
     <meta name="description" content="A Spring Framework application based on JSP, Spring MVC, Spring Data JPA, Hibernate and JDBC - govindvsg/spring-framework-petclinic">
     <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
   <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
@@ -39,10 +39,10 @@
     <meta property="og:image" content="https://avatars2.githubusercontent.com/u/59598650?s=400&amp;v=4" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="govindvsg/spring-framework-petclinic" /><meta property="og:url" content="https://github.com/govindvsg/spring-framework-petclinic" /><meta property="og:description" content="A Spring Framework application based on JSP, Spring MVC, Spring Data JPA, Hibernate and JDBC - govindvsg/spring-framework-petclinic" />
 
   <link rel="assets" href="https://github.githubassets.com/">
-  <link rel="web-socket" href="wss://live.github.com/_sockets/VjI6NTE2NzcxNTM3OjkzOTZiY2ViODYxM2U5MmM5NzZkN2JiZTUyM2I3ODA3ZDllYmRhMzI4N2FiMTc4Mzk3MjQ0ZjhhNDI2NjRlZmQ=--e92776676626622d95d2dc84dc95f86d2ba06572">
+  <link rel="web-socket" href="wss://live.github.com/_sockets/VjI6NTE2NzcxNTM3OjA4ZTRhZWE2Y2Y4OGE0MzBmODhiMzMyOTY0ODY4NmUyMGUxNjFlNzE0NTJjMTlkNTM5ODBiYWYzMGMzNTk3ZTc=--ef61ea25c369c51ef29dbb17518fadb34df647f9">
   <link rel="sudo-modal" href="/sessions/sudo_modal">
 
-  <meta name="request-id" content="C91D:70F8:BC9A30:F94542:5E81DEA6" data-pjax-transient="true" /><meta name="html-safe-nonce" content="e226f5b2c640866f4a56d3a2ce5411bfe7e980dc" data-pjax-transient="true" /><meta name="visitor-payload" content="eyJyZWZlcnJlciI6Imh0dHBzOi8vZ2l0aHViLmNvbS9nb3ZpbmR2c2cvc3ByaW5nLWZyYW1ld29yay1wZXRjbGluaWMiLCJyZXF1ZXN0X2lkIjoiQzkxRDo3MEY4OkJDOUEzMDpGOTQ1NDI6NUU4MURFQTYiLCJ2aXNpdG9yX2lkIjoiMzM1NDkxNjIyMzM2ODM3OTc5IiwicmVnaW9uX2VkZ2UiOiJhcC1zb3V0aC0xIiwicmVnaW9uX3JlbmRlciI6ImlhZCJ9" data-pjax-transient="true" /><meta name="visitor-hmac" content="757b7e5e7f1ad01570fa8f2bfdbcb8eca97842de6431ee02783216048a805333" data-pjax-transient="true" />
+  <meta name="request-id" content="C91D:70F8:BC929C:F9383E:5E81DE88" data-pjax-transient="true" /><meta name="html-safe-nonce" content="e226f5b2c640866f4a56d3a2ce5411bfe7e980dc" data-pjax-transient="true" /><meta name="visitor-payload" content="eyJyZWZlcnJlciI6Imh0dHBzOi8vZ2l0aHViLmNvbS9nb3ZpbmR2c2cvc3ByaW5nLWZyYW1ld29yay1wZXRjbGluaWMiLCJyZXF1ZXN0X2lkIjoiQzkxRDo3MEY4OkJDOTI5QzpGOTM4M0U6NUU4MURFODgiLCJ2aXNpdG9yX2lkIjoiMzM1NDkxNjIyMzM2ODM3OTc5IiwicmVnaW9uX2VkZ2UiOiJhcC1zb3V0aC0xIiwicmVnaW9uX3JlbmRlciI6ImlhZCJ9" data-pjax-transient="true" /><meta name="visitor-hmac" content="5a82b408d7bac4fa008123708ac4292cdaede73d310ea9e2eb11302faf43baf0" data-pjax-transient="true" />
 
 
 
@@ -75,7 +75,7 @@
 
       <meta name="expected-hostname" content="github.com">
 
-      <meta name="js-proxy-site-detection-payload" content="N2NmMzg2NmIxZTNiOTA5ZWNjODc5OWIzNTliMGE0ZDZjYWUzZTI3MjQzNzc3OTg3YTliYzc2NjAwOGU5ZjcyZnx7InJlbW90ZV9hZGRyZXNzIjoiMTIyLjE2OS4yMS4xMjciLCJyZXF1ZXN0X2lkIjoiQzkxRDo3MEY4OkJDOUEzMDpGOTQ1NDI6NUU4MURFQTYiLCJ0aW1lc3RhbXAiOjE1ODU1Njk0NTgsImhvc3QiOiJnaXRodWIuY29tIn0=">
+      <meta name="js-proxy-site-detection-payload" content="ZWU3Y2U1ZGRjZTZlYTM0NDU5ODc5ZjA2MTI0YTUwNzAzMjg0YTZkNmQ3OWE2ZjMzMmRlMzQ2OTcwNzJmMjVkYnx7InJlbW90ZV9hZGRyZXNzIjoiMTIyLjE2OS4yMS4xMjciLCJyZXF1ZXN0X2lkIjoiQzkxRDo3MEY4OkJDOTI5QzpGOTM4M0U6NUU4MURFODgiLCJ0aW1lc3RhbXAiOjE1ODU1Njk0MzIsImhvc3QiOiJnaXRodWIuY29tIn0=">
 
     <meta name="enabled-features" content="MARKETPLACE_FEATURED_BLOG_POSTS,MARKETPLACE_INVOICED_BILLING,MARKETPLACE_SOCIAL_PROOF_CUSTOMERS,MARKETPLACE_TRENDING_SOCIAL_PROOF,MARKETPLACE_RECOMMENDATIONS,MARKETPLACE_PENDING_INSTALLATIONS,RELATED_ISSUES,GHE_CLOUD_TRIAL,PAGE_STALE_CHECK">
 
@@ -89,7 +89,7 @@
   <meta name="octolytics-dimension-user_id" content="59598650" /><meta name="octolytics-dimension-user_login" content="govindvsg" /><meta name="octolytics-dimension-repository_id" content="251251933" /><meta name="octolytics-dimension-repository_nwo" content="govindvsg/spring-framework-petclinic" /><meta name="octolytics-dimension-repository_public" content="true" /><meta name="octolytics-dimension-repository_is_fork" content="true" /><meta name="octolytics-dimension-repository_parent_id" content="73789676" /><meta name="octolytics-dimension-repository_parent_nwo" content="spring-petclinic/spring-framework-petclinic" /><meta name="octolytics-dimension-repository_network_root_id" content="73789676" /><meta name="octolytics-dimension-repository_network_root_nwo" content="spring-petclinic/spring-framework-petclinic" /><meta name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" content="true" />
 
 
-    <link rel="canonical" href="https://github.com/govindvsg/spring-framework-petclinic/blob/master/azure-pipelines.yml" data-pjax-transient>
+    <link rel="canonical" href="https://github.com/govindvsg/spring-framework-petclinic/blob/master/mvnw.cmd" data-pjax-transient>
 
 
   <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
@@ -165,7 +165,7 @@
           spellcheck="false"
           autocomplete="off"
           >
-          <input type="hidden" value="iDuOiIyGXy2jGOAykYTtUlILcbQVnJn6+j/XEHzjf9UxeUfVmGyPFIvCrFiTywSYWw3apcE/XyonNrb9JTqKfg==" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" />
+          <input type="hidden" value="K02op2UWUBKlJPEW7wlbkszQl6RvRss7uJ0nOyemQYaSD2H6cfyAK43+vXztRrJYxdY8tbvlDetllEbWfn+0LQ==" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" />
           <input type="hidden" class="js-site-search-type-field" name="type" >
             <img src="https://github.githubassets.com/images/search-key-slash.svg" alt="" class="mr-2 header-search-key-slash">
 
@@ -316,7 +316,7 @@
       <img class="avatar" height="20" width="20" alt="@govindvsg" src="https://avatars0.githubusercontent.com/u/59598650?s=60&amp;v=4" />
       govindvsg
 </a>
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/logout" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="w7g2lBxIyZmAPpifGkaFfc4kFaUX2ZIi3LIKAFdwOtP+ZM+NcfbBMsu9ugEt8il4HTUf5fcJOXpVnKSwSDCA3g==" />
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/logout" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="MXX6w4OWWGFtlBS6yWJsLcl9Ap82eEGZKNaMQ0pGK60MqQPa7ihQyiYXNiT+1sAoGmwI39ao6sGh+CLzVQaRoA==" />
       <button type="submit" class="Header-link mr-0 mr-lg-3 py-2 py-lg-0 border-top border-lg-top-0 border-white-fade-15 d-lg-none btn-link d-block width-full text-left" data-ga-click="Header, sign out, icon:logout" style="padding-left: 2px;">
         <svg class="octicon octicon-sign-out v-align-middle" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 9V7H8V5h4V3l4 3-4 3zm-2 3H6V3L2 1h8v3h1V1c0-.55-.45-1-1-1H1C.45 0 0 .45 0 1v11.38c0 .39.22.73.55.91L6 16.01V13h4c.55 0 1-.45 1-1V8h-1v4z"/></svg>
         Sign out
@@ -406,7 +406,7 @@
   " data-team-hovercards-enabled>
   <details class="js-user-status-details details-reset details-overlay details-overlay-dark">
     <summary class="btn-link btn-block link-gray no-underline js-toggle-user-status-edit toggle-user-status-edit "
-      role="menuitem" data-hydro-click="{&quot;event_type&quot;:&quot;user_profile.click&quot;,&quot;payload&quot;:{&quot;profile_user_id&quot;:59598650,&quot;target&quot;:&quot;EDIT_USER_STATUS&quot;,&quot;user_id&quot;:59598650,&quot;originating_url&quot;:&quot;https://github.com/govindvsg/spring-framework-petclinic/blob/master/azure-pipelines.yml&quot;}}" data-hydro-click-hmac="b5b636e13139e2daa0b712b95e7414cff851954100e46224551fc7e5a675e4bb">
+      role="menuitem" data-hydro-click="{&quot;event_type&quot;:&quot;user_profile.click&quot;,&quot;payload&quot;:{&quot;profile_user_id&quot;:59598650,&quot;target&quot;:&quot;EDIT_USER_STATUS&quot;,&quot;user_id&quot;:59598650,&quot;originating_url&quot;:&quot;https://github.com/govindvsg/spring-framework-petclinic/blob/master/mvnw.cmd&quot;}}" data-hydro-click-hmac="1170043575c8aa708ad7b48eb0b8ecbe84b4534cd8f2500489b364c8aa695548">
       <div class="d-flex">
         <div class="f6 lh-condensed user-status-header
           d-inline-block v-align-middle
@@ -433,7 +433,7 @@
       </div>
     </summary>
     <details-dialog class="details-dialog rounded-1 anim-fade-in fast Box Box--overlay" role="dialog" tabindex="-1">
-      <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="position-relative flex-auto js-user-status-form" action="/users/status?compact=1&amp;link_mentions=0&amp;truncate=1" accept-charset="UTF-8" method="post"><input type="hidden" name="_method" value="put" /><input type="hidden" name="authenticity_token" value="EPtPzrfYmUxyIIBDth5F/m6Lhi7wzQIKJvcLeTnTPndx3f5SO2UtXL+0ktq6n2znnpBhftC2s1w0wrSTStFtFg==" />
+      <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="position-relative flex-auto js-user-status-form" action="/users/status?compact=1&amp;link_mentions=0&amp;truncate=1" accept-charset="UTF-8" method="post"><input type="hidden" name="_method" value="put" /><input type="hidden" name="authenticity_token" value="pFT50xc+bCas+Z5Zn/J0/Gx5wFI5dcnH4dlrICwFODnFckhPm4PYNmFtjMCTc13lnGInAhkOeJHz7NTKXwdrWA==" />
         <div class="Box-header bg-gray border-bottom p-3">
           <button class="Box-btn-octicon js-toggle-user-status-edit btn-octicon float-right" type="reset" aria-label="Close dialog" data-close-dialog>
             <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
@@ -551,17 +551,17 @@
       </li>
       <li class="dropdown-divider" role="none"></li>
         <li>
-          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 30 minutes" value="2020-03-30T17:57:38+05:30">
+          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 30 minutes" value="2020-03-30T17:57:12+05:30">
             in 30 minutes
           </button>
         </li>
         <li>
-          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 1 hour" value="2020-03-30T18:27:38+05:30">
+          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 1 hour" value="2020-03-30T18:27:12+05:30">
             in 1 hour
           </button>
         </li>
         <li>
-          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 4 hours" value="2020-03-30T21:27:38+05:30">
+          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 4 hours" value="2020-03-30T21:27:12+05:30">
             in 4 hours
           </button>
         </li>
@@ -618,10 +618,10 @@
     class="dropdown-item btn-link"
     role="menuitem"
     data-feature-preview-trigger-url="/users/govindvsg/feature_previews"
-    data-feature-preview-close-details="{&quot;event_type&quot;:&quot;feature_preview.clicks.close_modal&quot;,&quot;payload&quot;:{&quot;originating_url&quot;:&quot;https://github.com/govindvsg/spring-framework-petclinic/blob/master/azure-pipelines.yml&quot;,&quot;user_id&quot;:59598650}}"
-    data-feature-preview-close-hmac="86827b95d240621e185868c5cd418b39faab997d78a9064e1222d86aa0b99d4d"
-    data-hydro-click="{&quot;event_type&quot;:&quot;feature_preview.clicks.open_modal&quot;,&quot;payload&quot;:{&quot;link_location&quot;:&quot;user_dropdown&quot;,&quot;originating_url&quot;:&quot;https://github.com/govindvsg/spring-framework-petclinic/blob/master/azure-pipelines.yml&quot;,&quot;user_id&quot;:59598650}}"
-    data-hydro-click-hmac="a21743ded13a63c42d88f6f2236d533f80809c2c396eb957e5593d8ce82cc7c3"
+    data-feature-preview-close-details="{&quot;event_type&quot;:&quot;feature_preview.clicks.close_modal&quot;,&quot;payload&quot;:{&quot;originating_url&quot;:&quot;https://github.com/govindvsg/spring-framework-petclinic/blob/master/mvnw.cmd&quot;,&quot;user_id&quot;:59598650}}"
+    data-feature-preview-close-hmac="5cc8bf9ff5d84497d710f75b3375ff232d1d0b45f481f340ede6e3dea40d3f8a"
+    data-hydro-click="{&quot;event_type&quot;:&quot;feature_preview.clicks.open_modal&quot;,&quot;payload&quot;:{&quot;link_location&quot;:&quot;user_dropdown&quot;,&quot;originating_url&quot;:&quot;https://github.com/govindvsg/spring-framework-petclinic/blob/master/mvnw.cmd&quot;,&quot;user_id&quot;:59598650}}"
+    data-hydro-click-hmac="531747b59cecf00c5351fbb90d39b8c9b1bfe8eef26178c5c194612c5e25c5de"
   >
     Feature preview
   </button>
@@ -630,12 +630,12 @@
 
     <a role="menuitem" class="dropdown-item" href="https://help.github.com" data-ga-click="Header, go to help, text:help">Help</a>
     <a role="menuitem" class="dropdown-item" href="/settings/profile" data-ga-click="Header, go to settings, icon:settings">Settings</a>
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="logout-form" action="/logout" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="UvQ6m1fzczEf4gOMFig4cG/8THsqsppSvRlzKZGG4MtvKMOCOk17mlRhIRIhnJR1vO1GO8piMQo0N92ZjsZaxg==" />
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="logout-form" action="/logout" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="gqhIUHaFq5BoWR3KxP+yC4KEDxhx4im9TN1DbQAG2oS/dLFJGzujOyPaP1TzSx4OUZUFWJEyguXF8+3dH0ZgiQ==" />
       
       <button type="submit" class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout" role="menuitem">
         Sign out
       </button>
-      <input type="text" name="required_field_1c48" hidden="hidden" class="form-control" /><input type="hidden" name="timestamp" value="1585569458646" class="form-control" /><input type="hidden" name="timestamp_secret" value="08bd95609a8c7f92102f276a7818ebad013849bcf9fc1beb5b66273c27690058" class="form-control" />
+      <input type="text" name="required_field_40b8" hidden="hidden" class="form-control" /><input type="hidden" name="timestamp" value="1585569432169" class="form-control" /><input type="hidden" name="timestamp_secret" value="a6ade6e8c1e0ebef0dc4921e2ae3e48d06623d79e364d8e1b5f465cfec2079f7" class="form-control" />
 </form>  </details-menu>
 </details>
 
@@ -677,10 +677,10 @@
       <p class="shelf-lead">
           Using the Hello World guide, you’ll start a branch, write comments, and open a pull request.
       </p>
-      <a class="btn btn-primary shelf-cta" target="_blank" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;READ_GUIDE&quot;,&quot;repository_id&quot;:251251933,&quot;originating_url&quot;:&quot;https://github.com/govindvsg/spring-framework-petclinic/blob/master/azure-pipelines.yml&quot;,&quot;user_id&quot;:59598650}}" data-hydro-click-hmac="53ec86f8fc6248f3cfadd2c34e979a5b36dec2e4a57f9c5b658f6245f6e82998" href="https://guides.github.com/activities/hello-world/">Read the guide</a>
+      <a class="btn btn-primary shelf-cta" target="_blank" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;READ_GUIDE&quot;,&quot;repository_id&quot;:251251933,&quot;originating_url&quot;:&quot;https://github.com/govindvsg/spring-framework-petclinic/blob/master/mvnw.cmd&quot;,&quot;user_id&quot;:59598650}}" data-hydro-click-hmac="8cf41127f3a50043312dab7bc5e7da015fb7b615c5433cedbd349decc3958978" href="https://guides.github.com/activities/hello-world/">Read the guide</a>
     </div>
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="shelf-dismiss js-notice-dismiss" action="/dashboard/dismiss_bootcamp" accept-charset="UTF-8" method="post"><input type="hidden" name="_method" value="delete" /><input type="hidden" name="authenticity_token" value="Ei39JzPOOMJh0m4RHhaTy+hTnBZ603SHEq9ScTWQLL3M5GHNyZ/9rk/cD2mWbCWEpMhCt0ze50s5y1QP+lt5YA==" />
-      <button name="button" type="submit" class="mr-1 close-button tooltipped tooltipped-w" aria-label="Hide this notice forever" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;DISMISS_BANNER&quot;,&quot;repository_id&quot;:251251933,&quot;originating_url&quot;:&quot;https://github.com/govindvsg/spring-framework-petclinic/blob/master/azure-pipelines.yml&quot;,&quot;user_id&quot;:59598650}}" data-hydro-click-hmac="f2e1c81dfd7a18cc13451e1bd4162b8a48d5275a404efbcbfd8fc4a58af67778">
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="shelf-dismiss js-notice-dismiss" action="/dashboard/dismiss_bootcamp" accept-charset="UTF-8" method="post"><input type="hidden" name="_method" value="delete" /><input type="hidden" name="authenticity_token" value="RBLZLhoKNCNPo+kvbQW/sV0Qqqwd1qBsmadVT/rkYcya20XE4FvxT2GtiFflfwn+EYt0DSvbM6Cyw1MxNS80EQ==" />
+      <button name="button" type="submit" class="mr-1 close-button tooltipped tooltipped-w" aria-label="Hide this notice forever" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;DISMISS_BANNER&quot;,&quot;repository_id&quot;:251251933,&quot;originating_url&quot;:&quot;https://github.com/govindvsg/spring-framework-petclinic/blob/master/mvnw.cmd&quot;,&quot;user_id&quot;:59598650}}" data-hydro-click-hmac="ec8e175ece725356641e5547b2ed33c40b7edbdedf537e74882ba17f194f974a">
         <svg aria-label="Hide this notice forever" class="octicon octicon-x v-align-text-top" viewBox="0 0 12 16" version="1.1" width="12" height="16" role="img"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
 </button></form>  </div>
 </div>
@@ -724,10 +724,10 @@
 
   <li>
     
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form data-remote="true" class="clearfix js-social-form js-social-container" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="m2e5AD57Kny4BaI7YCaQYSfi+D6tgOsf1yEVmW7OuM+up8UQyaOgKfxf2UZvfB87z70541gDNosfntt33C28gw==" />      <input type="hidden" name="repository_id" value="251251933">
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form data-remote="true" class="clearfix js-social-form js-social-container" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="glDQfpb8SJ7nigeNdpwYFmtkHr8IaZJZ7WzRuJUKvbe3kKxuYSTCy6PQfPB5xpdMgzvfYv3qT80l0x9WJ+m5+w==" />      <input type="hidden" name="repository_id" value="251251933">
 
       <details class="details-reset details-overlay select-menu float-left">
-        <summary class="select-menu-button float-left btn btn-sm btn-with-count" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;WATCH_BUTTON&quot;,&quot;repository_id&quot;:251251933,&quot;originating_url&quot;:&quot;https://github.com/govindvsg/spring-framework-petclinic/blob/master/azure-pipelines.yml&quot;,&quot;user_id&quot;:59598650}}" data-hydro-click-hmac="2a099bd14fa75257f58c6c8b60bf7d11d89b4f85b0486c497887289d79fc65b4" data-ga-click="Repository, click Watch settings, action:blob#show">          <span data-menu-button>
+        <summary class="select-menu-button float-left btn btn-sm btn-with-count" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;WATCH_BUTTON&quot;,&quot;repository_id&quot;:251251933,&quot;originating_url&quot;:&quot;https://github.com/govindvsg/spring-framework-petclinic/blob/master/mvnw.cmd&quot;,&quot;user_id&quot;:59598650}}" data-hydro-click-hmac="e194434895b4848a54dda7983fdc0ec220ccd0efe60a6fe8747c586a8ebb6e97" data-ga-click="Repository, click Watch settings, action:blob#show">          <span data-menu-button>
               <svg class="octicon octicon-eye v-align-text-bottom" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg>
               Watch
           </span>
@@ -798,9 +798,9 @@
 
   <li>
       <div class="js-toggler-container js-social-container starring-container ">
-    <form class="starred js-social-form" action="/govindvsg/spring-framework-petclinic/unstar" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="N5z6cuPCJ7cbXiXj6kl/D6E0nUMbmWksv41A9bQOcKr6BhN1YXPMvTgDtpvjMfpHP1RjectekIi3xmfTFF0R6A==" />
+    <form class="starred js-social-form" action="/govindvsg/spring-framework-petclinic/unstar" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="/uQJ5r4CLrl9sgKHNMAPnLYPV0M1GIRy1EypfFZUlcYzfuDhPLPFs17vkf89uIrUKG+peeXffdbcB45a9gf0hA==" />
       <input type="hidden" name="context" value="repository"></input>
-      <button type="submit" class="btn btn-sm btn-with-count js-toggler-target" aria-label="Unstar this repository" title="Unstar govindvsg/spring-framework-petclinic" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;UNSTAR_BUTTON&quot;,&quot;repository_id&quot;:251251933,&quot;originating_url&quot;:&quot;https://github.com/govindvsg/spring-framework-petclinic/blob/master/azure-pipelines.yml&quot;,&quot;user_id&quot;:59598650}}" data-hydro-click-hmac="0d717ea9374de4d3ddc4eb91211d20464841f657de3703507673d66fda980f2a" data-ga-click="Repository, click unstar button, action:blob#show; text:Unstar">        <svg height="16" class="octicon octicon-star v-align-text-bottom" vertical_align="text_bottom" viewBox="0 0 14 16" version="1.1" width="14" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
+      <button type="submit" class="btn btn-sm btn-with-count js-toggler-target" aria-label="Unstar this repository" title="Unstar govindvsg/spring-framework-petclinic" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;UNSTAR_BUTTON&quot;,&quot;repository_id&quot;:251251933,&quot;originating_url&quot;:&quot;https://github.com/govindvsg/spring-framework-petclinic/blob/master/mvnw.cmd&quot;,&quot;user_id&quot;:59598650}}" data-hydro-click-hmac="48dd78da30f0e3398ec3c6a458016ba4839f3a5c8b6319359096e38dd9d82300" data-ga-click="Repository, click unstar button, action:blob#show; text:Unstar">        <svg height="16" class="octicon octicon-star v-align-text-bottom" vertical_align="text_bottom" viewBox="0 0 14 16" version="1.1" width="14" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
 
         Unstar
 </button>        <a class="social-count js-social-count" href="/govindvsg/spring-framework-petclinic/stargazers"
@@ -808,9 +808,9 @@
            0
         </a>
 </form>
-    <form class="unstarred js-social-form" action="/govindvsg/spring-framework-petclinic/star" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="x3HUCXTiVtqv6mPv/ARoaObSrYmu7KRV9sFfDl284IKCw9Pcq5mnJh6fUgL2bPqGAvlcNN+t+YJLnUdSqqs/lQ==" />
+    <form class="unstarred js-social-form" action="/govindvsg/spring-framework-petclinic/star" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="qyEiC2M0mc+mkov8xJ80FvRcBCIg3AltyhdV1gsx3aPukyXevE9oMxfnuhHO96b4EHf1n1GdVLp3S02K/CYCtA==" />
       <input type="hidden" name="context" value="repository"></input>
-      <button type="submit" class="btn btn-sm btn-with-count js-toggler-target" aria-label="Unstar this repository" title="Star govindvsg/spring-framework-petclinic" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;STAR_BUTTON&quot;,&quot;repository_id&quot;:251251933,&quot;originating_url&quot;:&quot;https://github.com/govindvsg/spring-framework-petclinic/blob/master/azure-pipelines.yml&quot;,&quot;user_id&quot;:59598650}}" data-hydro-click-hmac="b0c79ead187308310690db8d34c4940c83ae8e5ff58b18be97e83c793eca79c5" data-ga-click="Repository, click star button, action:blob#show; text:Star">        <svg height="16" class="octicon octicon-star v-align-text-bottom" vertical_align="text_bottom" viewBox="0 0 14 16" version="1.1" width="14" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
+      <button type="submit" class="btn btn-sm btn-with-count js-toggler-target" aria-label="Unstar this repository" title="Star govindvsg/spring-framework-petclinic" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;STAR_BUTTON&quot;,&quot;repository_id&quot;:251251933,&quot;originating_url&quot;:&quot;https://github.com/govindvsg/spring-framework-petclinic/blob/master/mvnw.cmd&quot;,&quot;user_id&quot;:59598650}}" data-hydro-click-hmac="22bd5ccfced7a0e3610ebcfd3e84c886febda00cded2b21cfe5b11bfd232bc2c" data-ga-click="Repository, click star button, action:blob#show; text:Star">        <svg height="16" class="octicon octicon-star v-align-text-bottom" vertical_align="text_bottom" viewBox="0 0 14 16" version="1.1" width="14" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
 
         Star
 </button>        <a class="social-count js-social-count" href="/govindvsg/spring-framework-petclinic/stargazers"
@@ -956,9 +956,9 @@
   
 
 
-    <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/govindvsg/spring-framework-petclinic/blob/64715a9ffb1eb2288a94584d18af233cc1439351/azure-pipelines.yml">Permalink</a>
+    <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/govindvsg/spring-framework-petclinic/blob/64715a9ffb1eb2288a94584d18af233cc1439351/mvnw.cmd">Permalink</a>
 
-    <!-- blob contrib key: blob_contributors:v22:e997d855535522e8ed141bdd6e6e27e6 -->
+    <!-- blob contrib key: blob_contributors:v22:764b3c2e2541e5ca42c10654659e0119 -->
     
 
     <div class="d-flex flex-items-start flex-shrink-0 flex-column flex-md-row pb-3">
@@ -973,7 +973,7 @@
     <span class="dropdown-caret"></span>
   </summary>
 
-  <details-menu class="SelectMenu SelectMenu--hasFilter" src="/govindvsg/spring-framework-petclinic/refs/master/azure-pipelines.yml?source_action=show&amp;source_controller=blob" preload>
+  <details-menu class="SelectMenu SelectMenu--hasFilter" src="/govindvsg/spring-framework-petclinic/refs/master/mvnw.cmd?source_action=show&amp;source_controller=blob" preload>
     <div class="SelectMenu-modal">
       <include-fragment class="SelectMenu-loading" aria-label="Menu is loading">
         <svg class="octicon octicon-octoface anim-pulse" height="32" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill-rule="evenodd" d="M14.7 5.34c.13-.32.55-1.59-.13-3.31 0 0-1.05-.33-3.44 1.3-1-.28-2.07-.32-3.13-.32s-2.13.04-3.13.32c-2.39-1.64-3.44-1.3-3.44-1.3-.68 1.72-.26 2.99-.13 3.31C.49 6.21 0 7.33 0 8.69 0 13.84 3.33 15 7.98 15S16 13.84 16 8.69c0-1.36-.49-2.48-1.3-3.35zM8 14.02c-3.3 0-5.98-.15-5.98-3.35 0-.76.38-1.48 1.02-2.07 1.07-.98 2.9-.46 4.96-.46 2.07 0 3.88-.52 4.96.46.65.59 1.02 1.3 1.02 2.07 0 3.19-2.68 3.35-5.98 3.35zM5.49 9.01c-.66 0-1.2.8-1.2 1.78s.54 1.79 1.2 1.79c.66 0 1.2-.8 1.2-1.79s-.54-1.78-1.2-1.78zm5.02 0c-.66 0-1.2.79-1.2 1.78s.54 1.79 1.2 1.79c.66 0 1.2-.8 1.2-1.79s-.53-1.78-1.2-1.78z"/></svg>
@@ -989,13 +989,13 @@
                 data-hotkey="t">
             Find file
           </a>
-          <clipboard-copy value="azure-pipelines.yml" class="btn btn-sm BtnGroup-item">
+          <clipboard-copy value="mvnw.cmd" class="btn btn-sm BtnGroup-item">
             Copy path
           </clipboard-copy>
         </div>
       </span>
       <h2 id="blob-path" class="breadcrumb flex-auto min-width-0 text-normal flex-md-self-center ml-md-2 mr-md-3 my-2 my-md-0">
-          <span class="js-repo-root text-bold"><span class="js-path-segment"><a data-pjax="true" href="/govindvsg/spring-framework-petclinic"><span>spring-framework-petclinic</span></a></span></span><span class="separator">/</span><strong class="final-path">azure-pipelines.yml</strong>
+          <span class="js-repo-root text-bold"><span class="js-path-segment"><a data-pjax="true" href="/govindvsg/spring-framework-petclinic"><span>spring-framework-petclinic</span></a></span></span><span class="separator">/</span><strong class="final-path">mvnw.cmd</strong>
       </h2>
 
       <div class="BtnGroup flex-shrink-0 d-none d-md-inline-block">
@@ -1005,7 +1005,7 @@
               data-hotkey="t">
           Find file
         </a>
-        <clipboard-copy value="azure-pipelines.yml" class="btn btn-sm BtnGroup-item">
+        <clipboard-copy value="mvnw.cmd" class="btn btn-sm BtnGroup-item">
           Copy path
         </clipboard-copy>
       </div>
@@ -1013,16 +1013,45 @@
 
 
 
-    <include-fragment src="/govindvsg/spring-framework-petclinic/contributors/master/azure-pipelines.yml" class="Box Box--condensed commit-loader">
-      <div class="Box-body bg-blue-light f6">
-        Fetching contributors&hellip;
+    
+  <div class="Box Box--condensed d-flex flex-column flex-shrink-0 mb-3">
+      <div class="Box-body d-flex flex-justify-between bg-blue-light flex-column flex-md-row flex-items-start flex-md-items-center">
+        <span class="pr-md-4 f6">
+          <a rel="contributor" data-skip-pjax="true" data-hovercard-type="user" data-hovercard-url="/users/arey/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/arey"><img class="avatar" src="https://avatars2.githubusercontent.com/u/838318?s=40&amp;v=4" width="20" height="20" alt="@arey" /></a>
+          <a class="text-bold link-gray-dark lh-default v-align-middle" rel="contributor" data-hovercard-type="user" data-hovercard-url="/users/arey/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/arey">arey</a>
+            <span class="lh-default v-align-middle">
+              <a data-pjax="true" title="Upgrade Maven wrapper to 3.5.4" class="link-gray" href="/govindvsg/spring-framework-petclinic/commit/c6db7b5d2295edf07f334d8548c857a209900d98">Upgrade Maven wrapper to 3.5.4</a>
+            </span>
+        </span>
+        <span class="d-inline-block flex-shrink-0 v-align-bottom f6 mt-2 mt-md-0">
+          <a class="pr-2 text-mono link-gray" href="/govindvsg/spring-framework-petclinic/commit/c6db7b5d2295edf07f334d8548c857a209900d98" data-pjax>c6db7b5</a>
+          <relative-time datetime="2019-03-29T07:35:58Z" class="no-wrap">Mar 29, 2019</relative-time>
+        </span>
       </div>
 
-      <div class="Box-body d-flex flex-items-center" >
-        <img alt="" class="loader-loading mr-2" src="https://github.githubassets.com/images/spinners/octocat-spinner-32-EAF2F5.gif" width="16" height="16" />
-        <span class="text-red h6 loader-error">Cannot retrieve contributors at this time</span>
-      </div>
-</include-fragment>
+    <div class="Box-body d-flex flex-items-center flex-auto f6 border-bottom-0 flex-wrap" >
+      <details class="details-reset details-overlay details-overlay-dark lh-default text-gray-dark float-left mr-2" id="blob_contributors_box">
+        <summary class="btn-link">
+          <span><strong>1</strong> contributor</span>
+        </summary>
+        <details-dialog
+          class="Box Box--overlay d-flex flex-column anim-fade-in fast"
+          aria-label="Users who have contributed to this file"
+          src="/govindvsg/spring-framework-petclinic/contributors-list/master/mvnw.cmd" preload>
+          <div class="Box-header">
+            <button class="Box-btn-octicon btn-octicon float-right" type="button" aria-label="Close dialog" data-close-dialog>
+              <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
+            </button>
+            <h3 class="Box-title">
+              Users who have contributed to this file
+            </h3>
+          </div>
+          <include-fragment class="octocat-spinner my-3" aria-label="Loading..."></include-fragment>
+        </details-dialog>
+      </details>
+    </div>
+  </div>
+
 
 
 
@@ -1034,17 +1063,17 @@
 <div class="Box-header py-2 d-flex flex-column flex-shrink-0 flex-md-row flex-md-items-center">
   <div class="text-mono f6 flex-auto pr-3 flex-order-2 flex-md-order-1 mt-2 mt-md-0">
 
-      68 lines (57 sloc)
+      182 lines (147 sloc)
       <span class="file-info-divider"></span>
-    1.79 KB
+    6.45 KB
   </div>
 
   <div class="d-flex py-1 py-md-0 flex-auto flex-order-1 flex-md-order-2 flex-sm-grow-0 flex-justify-between">
 
     <div class="BtnGroup">
-      <a id="raw-url" class="btn btn-sm BtnGroup-item" href="/govindvsg/spring-framework-petclinic/raw/master/azure-pipelines.yml">Raw</a>
-        <a class="btn btn-sm js-update-url-with-hash BtnGroup-item" data-hotkey="b" href="/govindvsg/spring-framework-petclinic/blame/master/azure-pipelines.yml">Blame</a>
-      <a rel="nofollow" class="btn btn-sm BtnGroup-item" href="/govindvsg/spring-framework-petclinic/commits/master/azure-pipelines.yml">History</a>
+      <a id="raw-url" class="btn btn-sm BtnGroup-item" href="/govindvsg/spring-framework-petclinic/raw/master/mvnw.cmd">Raw</a>
+        <a class="btn btn-sm js-update-url-with-hash BtnGroup-item" data-hotkey="b" href="/govindvsg/spring-framework-petclinic/blame/master/mvnw.cmd">Blame</a>
+      <a rel="nofollow" class="btn btn-sm BtnGroup-item" href="/govindvsg/spring-framework-petclinic/commits/master/mvnw.cmd">History</a>
     </div>
 
 
@@ -1057,13 +1086,13 @@
               <svg class="octicon octicon-device-desktop" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M15 2H1c-.55 0-1 .45-1 1v9c0 .55.45 1 1 1h5.34c-.25.61-.86 1.39-2.34 2h8c-1.48-.61-2.09-1.39-2.34-2H15c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm0 9H1V3h14v8z"/></svg>
           </a>
 
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form js-update-url-with-hash" action="/govindvsg/spring-framework-petclinic/edit/master/azure-pipelines.yml" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="p5X93vGSAezVuGvtFjktzVynzj2nfqx3o+yRY1EVrtZD9EmSJQS5W/KM+gKeKG8vFF13Mb22C7/9G7YdLRG8Sw==" />
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form js-update-url-with-hash" action="/govindvsg/spring-framework-petclinic/edit/master/mvnw.cmd" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="/vwxfJsnFpYaHFQ8bKwGiNX9ecGn01JpozQvNOPdHQcciomYZ+jGAwnZV1CJF1njPk3/oyw7WD0bHPeObNBQ4g==" />
             <button class="btn-octicon tooltipped tooltipped-nw" type="submit"
               aria-label="Edit this file" data-hotkey="e" data-disable-with>
               <svg class="octicon octicon-pencil" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M0 12v3h3l8-8-3-3-8 8zm3 2H1v-2h1v1h1v1zm10.3-9.3L12 6 9 3l1.3-1.3a.996.996 0 011.41 0l1.59 1.59c.39.39.39 1.02 0 1.41z"/></svg>
             </button>
 </form>
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" action="/govindvsg/spring-framework-petclinic/delete/master/azure-pipelines.yml" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="TbCR/Mb+qyi0URTtrgKIO+fICWBaKXeqqZTgMnyAMqUTJOLy3C/pcHTO/lAyjcIHGiyWZA8koK0e2FOgYoVHTg==" />
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" action="/govindvsg/spring-framework-petclinic/delete/master/mvnw.cmd" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="FaMfSih4Ao9u6Om2tffd80ljyKCHr/da+11gB9zQFUXqC52fdWK2REyCzddwWrgYaiBE+hRP9WYku1h5mt5yjw==" />
             <button class="btn-octicon btn-octicon-danger tooltipped tooltipped-nw" type="submit"
               aria-label="Delete this file" data-disable-with>
               <svg class="octicon octicon-trashcan" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11 2H9c0-.55-.45-1-1-1H5c-.55 0-1 .45-1 1H2c-.55 0-1 .45-1 1v1c0 .55.45 1 1 1v9c0 .55.45 1 1 1h7c.55 0 1-.45 1-1V5c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm-1 12H3V5h1v8h1V5h1v8h1V5h1v8h1V5h1v9zm1-10H2V3h9v1z"/></svg>
@@ -1076,288 +1105,771 @@
 
       
 
-  <div itemprop="text" class="Box-body p-0 blob-wrapper data type-yaml ">
+  <div itemprop="text" class="Box-body p-0 blob-wrapper data type-batchfile ">
       
 <table class="highlight tab-size js-file-line-container" data-tab-size="8" data-paste-markdown-skip>
       <tr>
         <td id="L1" class="blob-num js-line-number" data-line-number="1"></td>
-        <td id="LC1" class="blob-code blob-code-inner js-file-line"><span class="pl-c"><span class="pl-c">#</span> Maven package Java project Web App to Linux on Azure</span></td>
+        <td id="LC1" class="blob-code blob-code-inner js-file-line"><span class="pl-k">@</span><span class="pl-c"><span class="pl-k">REM</span> ----------------------------------------------------------------------------</span></td>
       </tr>
       <tr>
         <td id="L2" class="blob-num js-line-number" data-line-number="2"></td>
-        <td id="LC2" class="blob-code blob-code-inner js-file-line"><span class="pl-c"><span class="pl-c">#</span> Build your Java project and deploy it to Azure as a Linux web app</span></td>
+        <td id="LC2" class="blob-code blob-code-inner js-file-line"><span class="pl-k">@</span><span class="pl-c"><span class="pl-k">REM</span> Licensed to the Apache Software Foundation (ASF) under one</span></td>
       </tr>
       <tr>
         <td id="L3" class="blob-num js-line-number" data-line-number="3"></td>
-        <td id="LC3" class="blob-code blob-code-inner js-file-line"><span class="pl-c"><span class="pl-c">#</span> Add steps that analyze code, save build artifacts, deploy, and more:</span></td>
+        <td id="LC3" class="blob-code blob-code-inner js-file-line"><span class="pl-k">@</span><span class="pl-c"><span class="pl-k">REM</span> or more contributor license agreements.  See the NOTICE file</span></td>
       </tr>
       <tr>
         <td id="L4" class="blob-num js-line-number" data-line-number="4"></td>
-        <td id="LC4" class="blob-code blob-code-inner js-file-line"><span class="pl-c"><span class="pl-c">#</span> https://docs.microsoft.com/azure/devops/pipelines/languages/java</span></td>
+        <td id="LC4" class="blob-code blob-code-inner js-file-line"><span class="pl-k">@</span><span class="pl-c"><span class="pl-k">REM</span> distributed with this work for additional information</span></td>
       </tr>
       <tr>
         <td id="L5" class="blob-num js-line-number" data-line-number="5"></td>
-        <td id="LC5" class="blob-code blob-code-inner js-file-line">
-</td>
+        <td id="LC5" class="blob-code blob-code-inner js-file-line"><span class="pl-k">@</span><span class="pl-c"><span class="pl-k">REM</span> regarding copyright ownership.  The ASF licenses this file</span></td>
       </tr>
       <tr>
         <td id="L6" class="blob-num js-line-number" data-line-number="6"></td>
-        <td id="LC6" class="blob-code blob-code-inner js-file-line"><span class="pl-ent">trigger</span>:</td>
+        <td id="LC6" class="blob-code blob-code-inner js-file-line"><span class="pl-k">@</span><span class="pl-c"><span class="pl-k">REM</span> to you under the Apache License, Version 2.0 (the</span></td>
       </tr>
       <tr>
         <td id="L7" class="blob-num js-line-number" data-line-number="7"></td>
-        <td id="LC7" class="blob-code blob-code-inner js-file-line">- <span class="pl-s">master</span></td>
+        <td id="LC7" class="blob-code blob-code-inner js-file-line"><span class="pl-k">@</span><span class="pl-c"><span class="pl-k">REM</span> &quot;License&quot;); you may not use this file except in compliance</span></td>
       </tr>
       <tr>
         <td id="L8" class="blob-num js-line-number" data-line-number="8"></td>
-        <td id="LC8" class="blob-code blob-code-inner js-file-line">
-</td>
+        <td id="LC8" class="blob-code blob-code-inner js-file-line"><span class="pl-k">@</span><span class="pl-c"><span class="pl-k">REM</span> with the License.  You may obtain a copy of the License at</span></td>
       </tr>
       <tr>
         <td id="L9" class="blob-num js-line-number" data-line-number="9"></td>
-        <td id="LC9" class="blob-code blob-code-inner js-file-line"><span class="pl-ent">variables</span>:</td>
+        <td id="LC9" class="blob-code blob-code-inner js-file-line"><span class="pl-k">@</span><span class="pl-c"><span class="pl-k">REM</span></span></td>
       </tr>
       <tr>
         <td id="L10" class="blob-num js-line-number" data-line-number="10"></td>
-        <td id="LC10" class="blob-code blob-code-inner js-file-line">
-</td>
+        <td id="LC10" class="blob-code blob-code-inner js-file-line"><span class="pl-k">@</span><span class="pl-c"><span class="pl-k">REM</span>    http://www.apache.org/licenses/LICENSE-2.0</span></td>
       </tr>
       <tr>
         <td id="L11" class="blob-num js-line-number" data-line-number="11"></td>
-        <td id="LC11" class="blob-code blob-code-inner js-file-line">  <span class="pl-c"><span class="pl-c">#</span> Azure Resource Manager connection created during pipeline creation</span></td>
+        <td id="LC11" class="blob-code blob-code-inner js-file-line"><span class="pl-k">@</span><span class="pl-c"><span class="pl-k">REM</span></span></td>
       </tr>
       <tr>
         <td id="L12" class="blob-num js-line-number" data-line-number="12"></td>
-        <td id="LC12" class="blob-code blob-code-inner js-file-line">  <span class="pl-ent">azureSubscription</span>: <span class="pl-s"><span class="pl-pds">&#39;</span>708e386c-31cb-4ba9-983b-f10454ea4ee6<span class="pl-pds">&#39;</span></span></td>
+        <td id="LC12" class="blob-code blob-code-inner js-file-line"><span class="pl-k">@</span><span class="pl-c"><span class="pl-k">REM</span> Unless required by applicable law or agreed to in writing,</span></td>
       </tr>
       <tr>
         <td id="L13" class="blob-num js-line-number" data-line-number="13"></td>
-        <td id="LC13" class="blob-code blob-code-inner js-file-line">  </td>
+        <td id="LC13" class="blob-code blob-code-inner js-file-line"><span class="pl-k">@</span><span class="pl-c"><span class="pl-k">REM</span> software distributed under the License is distributed on an</span></td>
       </tr>
       <tr>
         <td id="L14" class="blob-num js-line-number" data-line-number="14"></td>
-        <td id="LC14" class="blob-code blob-code-inner js-file-line">  <span class="pl-c"><span class="pl-c">#</span> Web app name</span></td>
+        <td id="LC14" class="blob-code blob-code-inner js-file-line"><span class="pl-k">@</span><span class="pl-c"><span class="pl-k">REM</span> &quot;AS IS&quot; BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY</span></td>
       </tr>
       <tr>
         <td id="L15" class="blob-num js-line-number" data-line-number="15"></td>
-        <td id="LC15" class="blob-code blob-code-inner js-file-line">  <span class="pl-ent">webAppName</span>: <span class="pl-s"><span class="pl-pds">&#39;</span>vsg-app<span class="pl-pds">&#39;</span></span></td>
+        <td id="LC15" class="blob-code blob-code-inner js-file-line"><span class="pl-k">@</span><span class="pl-c"><span class="pl-k">REM</span> KIND, either express or implied.  See the License for the</span></td>
       </tr>
       <tr>
         <td id="L16" class="blob-num js-line-number" data-line-number="16"></td>
-        <td id="LC16" class="blob-code blob-code-inner js-file-line">
-</td>
+        <td id="LC16" class="blob-code blob-code-inner js-file-line"><span class="pl-k">@</span><span class="pl-c"><span class="pl-k">REM</span> specific language governing permissions and limitations</span></td>
       </tr>
       <tr>
         <td id="L17" class="blob-num js-line-number" data-line-number="17"></td>
-        <td id="LC17" class="blob-code blob-code-inner js-file-line">  <span class="pl-c"><span class="pl-c">#</span> Environment name</span></td>
+        <td id="LC17" class="blob-code blob-code-inner js-file-line"><span class="pl-k">@</span><span class="pl-c"><span class="pl-k">REM</span> under the License.</span></td>
       </tr>
       <tr>
         <td id="L18" class="blob-num js-line-number" data-line-number="18"></td>
-        <td id="LC18" class="blob-code blob-code-inner js-file-line">  <span class="pl-ent">environmentName</span>: <span class="pl-s"><span class="pl-pds">&#39;</span>vsg-app<span class="pl-pds">&#39;</span></span></td>
+        <td id="LC18" class="blob-code blob-code-inner js-file-line"><span class="pl-k">@</span><span class="pl-c"><span class="pl-k">REM</span> ----------------------------------------------------------------------------</span></td>
       </tr>
       <tr>
         <td id="L19" class="blob-num js-line-number" data-line-number="19"></td>
-        <td id="LC19" class="blob-code blob-code-inner js-file-line">  </td>
+        <td id="LC19" class="blob-code blob-code-inner js-file-line">
+</td>
       </tr>
       <tr>
         <td id="L20" class="blob-num js-line-number" data-line-number="20"></td>
-        <td id="LC20" class="blob-code blob-code-inner js-file-line">  <span class="pl-c"><span class="pl-c">#</span> Agent VM image name</span></td>
+        <td id="LC20" class="blob-code blob-code-inner js-file-line"><span class="pl-k">@</span><span class="pl-c"><span class="pl-k">REM</span> ----------------------------------------------------------------------------</span></td>
       </tr>
       <tr>
         <td id="L21" class="blob-num js-line-number" data-line-number="21"></td>
-        <td id="LC21" class="blob-code blob-code-inner js-file-line">  <span class="pl-ent">vmImageName</span>: <span class="pl-s"><span class="pl-pds">&#39;</span>ubuntu-latest<span class="pl-pds">&#39;</span></span></td>
+        <td id="LC21" class="blob-code blob-code-inner js-file-line"><span class="pl-k">@</span><span class="pl-c"><span class="pl-k">REM</span> Maven2 Start Up Batch script</span></td>
       </tr>
       <tr>
         <td id="L22" class="blob-num js-line-number" data-line-number="22"></td>
-        <td id="LC22" class="blob-code blob-code-inner js-file-line">
-</td>
+        <td id="LC22" class="blob-code blob-code-inner js-file-line"><span class="pl-k">@</span><span class="pl-c"><span class="pl-k">REM</span></span></td>
       </tr>
       <tr>
         <td id="L23" class="blob-num js-line-number" data-line-number="23"></td>
-        <td id="LC23" class="blob-code blob-code-inner js-file-line"><span class="pl-ent">stages</span>:</td>
+        <td id="LC23" class="blob-code blob-code-inner js-file-line"><span class="pl-k">@</span><span class="pl-c"><span class="pl-k">REM</span> Required ENV vars:</span></td>
       </tr>
       <tr>
         <td id="L24" class="blob-num js-line-number" data-line-number="24"></td>
-        <td id="LC24" class="blob-code blob-code-inner js-file-line">- <span class="pl-ent">stage</span>: <span class="pl-s">Build</span></td>
+        <td id="LC24" class="blob-code blob-code-inner js-file-line"><span class="pl-k">@</span><span class="pl-c"><span class="pl-k">REM</span> JAVA_HOME - location of a JDK home dir</span></td>
       </tr>
       <tr>
         <td id="L25" class="blob-num js-line-number" data-line-number="25"></td>
-        <td id="LC25" class="blob-code blob-code-inner js-file-line">  <span class="pl-ent">displayName</span>: <span class="pl-s">Build stage</span></td>
+        <td id="LC25" class="blob-code blob-code-inner js-file-line"><span class="pl-k">@</span><span class="pl-c"><span class="pl-k">REM</span></span></td>
       </tr>
       <tr>
         <td id="L26" class="blob-num js-line-number" data-line-number="26"></td>
-        <td id="LC26" class="blob-code blob-code-inner js-file-line">  <span class="pl-ent">jobs</span>:</td>
+        <td id="LC26" class="blob-code blob-code-inner js-file-line"><span class="pl-k">@</span><span class="pl-c"><span class="pl-k">REM</span> Optional ENV vars</span></td>
       </tr>
       <tr>
         <td id="L27" class="blob-num js-line-number" data-line-number="27"></td>
-        <td id="LC27" class="blob-code blob-code-inner js-file-line">  - <span class="pl-ent">job</span>: <span class="pl-s">MavenPackageAndPublishArtifacts</span></td>
+        <td id="LC27" class="blob-code blob-code-inner js-file-line"><span class="pl-k">@</span><span class="pl-c"><span class="pl-k">REM</span> M2_HOME - location of maven2&#39;s installed home dir</span></td>
       </tr>
       <tr>
         <td id="L28" class="blob-num js-line-number" data-line-number="28"></td>
-        <td id="LC28" class="blob-code blob-code-inner js-file-line">    <span class="pl-ent">displayName</span>: <span class="pl-s">Maven Package and Publish Artifacts</span></td>
+        <td id="LC28" class="blob-code blob-code-inner js-file-line"><span class="pl-k">@</span><span class="pl-c"><span class="pl-k">REM</span> MAVEN_BATCH_ECHO - set to &#39;on&#39; to enable the echoing of the batch commands</span></td>
       </tr>
       <tr>
         <td id="L29" class="blob-num js-line-number" data-line-number="29"></td>
-        <td id="LC29" class="blob-code blob-code-inner js-file-line">    <span class="pl-ent">pool</span>:</td>
+        <td id="LC29" class="blob-code blob-code-inner js-file-line"><span class="pl-k">@</span><span class="pl-c"><span class="pl-k">REM</span> MAVEN_BATCH_PAUSE - set to &#39;on&#39; to wait for a key stroke before ending</span></td>
       </tr>
       <tr>
         <td id="L30" class="blob-num js-line-number" data-line-number="30"></td>
-        <td id="LC30" class="blob-code blob-code-inner js-file-line">      <span class="pl-ent">vmImage</span>: <span class="pl-s">$(vmImageName)</span></td>
+        <td id="LC30" class="blob-code blob-code-inner js-file-line"><span class="pl-k">@</span><span class="pl-c"><span class="pl-k">REM</span> MAVEN_OPTS - parameters passed to the Java VM when running Maven</span></td>
       </tr>
       <tr>
         <td id="L31" class="blob-num js-line-number" data-line-number="31"></td>
-        <td id="LC31" class="blob-code blob-code-inner js-file-line">    </td>
+        <td id="LC31" class="blob-code blob-code-inner js-file-line"><span class="pl-k">@</span><span class="pl-c"><span class="pl-k">REM</span>     e.g. to debug Maven itself, use</span></td>
       </tr>
       <tr>
         <td id="L32" class="blob-num js-line-number" data-line-number="32"></td>
-        <td id="LC32" class="blob-code blob-code-inner js-file-line">    <span class="pl-ent">steps</span>:</td>
+        <td id="LC32" class="blob-code blob-code-inner js-file-line"><span class="pl-k">@</span><span class="pl-c"><span class="pl-k">REM</span> set MAVEN_OPTS=-Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=y,address=8000</span></td>
       </tr>
       <tr>
         <td id="L33" class="blob-num js-line-number" data-line-number="33"></td>
-        <td id="LC33" class="blob-code blob-code-inner js-file-line">    - <span class="pl-ent">task</span>: <span class="pl-s">Maven@3</span></td>
+        <td id="LC33" class="blob-code blob-code-inner js-file-line"><span class="pl-k">@</span><span class="pl-c"><span class="pl-k">REM</span> MAVEN_SKIP_RC - flag to disable loading of mavenrc files</span></td>
       </tr>
       <tr>
         <td id="L34" class="blob-num js-line-number" data-line-number="34"></td>
-        <td id="LC34" class="blob-code blob-code-inner js-file-line">      <span class="pl-ent">displayName</span>: <span class="pl-s"><span class="pl-pds">&#39;</span>Maven Package<span class="pl-pds">&#39;</span></span></td>
+        <td id="LC34" class="blob-code blob-code-inner js-file-line"><span class="pl-k">@</span><span class="pl-c"><span class="pl-k">REM</span> ----------------------------------------------------------------------------</span></td>
       </tr>
       <tr>
         <td id="L35" class="blob-num js-line-number" data-line-number="35"></td>
-        <td id="LC35" class="blob-code blob-code-inner js-file-line">      <span class="pl-ent">inputs</span>:</td>
+        <td id="LC35" class="blob-code blob-code-inner js-file-line">
+</td>
       </tr>
       <tr>
         <td id="L36" class="blob-num js-line-number" data-line-number="36"></td>
-        <td id="LC36" class="blob-code blob-code-inner js-file-line">        <span class="pl-ent">mavenPomFile</span>: <span class="pl-s"><span class="pl-pds">&#39;</span>pom.xml<span class="pl-pds">&#39;</span></span></td>
+        <td id="LC36" class="blob-code blob-code-inner js-file-line"><span class="pl-k">@</span><span class="pl-c"><span class="pl-k">REM</span> Begin all REM lines with &#39;@&#39; in case MAVEN_BATCH_ECHO is &#39;on&#39;</span></td>
       </tr>
       <tr>
         <td id="L37" class="blob-num js-line-number" data-line-number="37"></td>
-        <td id="LC37" class="blob-code blob-code-inner js-file-line">
-</td>
+        <td id="LC37" class="blob-code blob-code-inner js-file-line"><span class="pl-k">@</span><span class="pl-k">echo</span> <span class="pl-k">off</span></td>
       </tr>
       <tr>
         <td id="L38" class="blob-num js-line-number" data-line-number="38"></td>
-        <td id="LC38" class="blob-code blob-code-inner js-file-line">    - <span class="pl-ent">task</span>: <span class="pl-s">CopyFiles@2</span></td>
+        <td id="LC38" class="blob-code blob-code-inner js-file-line"><span class="pl-k">@</span><span class="pl-c"><span class="pl-k">REM</span> set title of command window</span></td>
       </tr>
       <tr>
         <td id="L39" class="blob-num js-line-number" data-line-number="39"></td>
-        <td id="LC39" class="blob-code blob-code-inner js-file-line">      <span class="pl-ent">displayName</span>: <span class="pl-s"><span class="pl-pds">&#39;</span>Copy Files to artifact staging directory<span class="pl-pds">&#39;</span></span></td>
+        <td id="LC39" class="blob-code blob-code-inner js-file-line"><span class="pl-k">title</span> %<span class="pl-v">0</span></td>
       </tr>
       <tr>
         <td id="L40" class="blob-num js-line-number" data-line-number="40"></td>
-        <td id="LC40" class="blob-code blob-code-inner js-file-line">      <span class="pl-ent">inputs</span>:</td>
+        <td id="LC40" class="blob-code blob-code-inner js-file-line"><span class="pl-k">@</span><span class="pl-c"><span class="pl-k">REM</span> enable echoing by setting MAVEN_BATCH_ECHO to &#39;on&#39;</span></td>
       </tr>
       <tr>
         <td id="L41" class="blob-num js-line-number" data-line-number="41"></td>
-        <td id="LC41" class="blob-code blob-code-inner js-file-line">        <span class="pl-ent">SourceFolder</span>: <span class="pl-s"><span class="pl-pds">&#39;</span>$(System.DefaultWorkingDirectory)<span class="pl-pds">&#39;</span></span></td>
+        <td id="LC41" class="blob-code blob-code-inner js-file-line"><span class="pl-k">@</span>if <span class="pl-s"><span class="pl-pds">&quot;</span><span class="pl-smi">%MAVEN_BATCH_ECHO%</span><span class="pl-pds">&quot;</span></span> <span class="pl-k">==</span> <span class="pl-s"><span class="pl-pds">&quot;</span>on<span class="pl-pds">&quot;</span></span>  <span class="pl-k">echo</span> <span class="pl-smi">%MAVEN_BATCH_ECHO%</span></td>
       </tr>
       <tr>
         <td id="L42" class="blob-num js-line-number" data-line-number="42"></td>
-        <td id="LC42" class="blob-code blob-code-inner js-file-line">        <span class="pl-ent">Contents</span>: <span class="pl-s"><span class="pl-pds">&#39;</span>**/target/*.?(war|jar)<span class="pl-pds">&#39;</span></span></td>
+        <td id="LC42" class="blob-code blob-code-inner js-file-line">
+</td>
       </tr>
       <tr>
         <td id="L43" class="blob-num js-line-number" data-line-number="43"></td>
-        <td id="LC43" class="blob-code blob-code-inner js-file-line">        <span class="pl-ent">TargetFolder</span>: <span class="pl-s">$(Build.ArtifactStagingDirectory)</span></td>
+        <td id="LC43" class="blob-code blob-code-inner js-file-line"><span class="pl-k">@</span><span class="pl-c"><span class="pl-k">REM</span> set %HOME% to equivalent of $HOME</span></td>
       </tr>
       <tr>
         <td id="L44" class="blob-num js-line-number" data-line-number="44"></td>
-        <td id="LC44" class="blob-code blob-code-inner js-file-line">
-</td>
+        <td id="LC44" class="blob-code blob-code-inner js-file-line"><span class="pl-k">if</span> <span class="pl-s"><span class="pl-pds">&quot;</span><span class="pl-smi">%HOME%</span><span class="pl-pds">&quot;</span></span> <span class="pl-k">==</span> <span class="pl-s"><span class="pl-pds">&quot;</span><span class="pl-pds">&quot;</span></span> (set <span class="pl-s"><span class="pl-pds">&quot;</span>HOME=<span class="pl-smi">%HOMEDRIVE%%HOMEPATH%</span><span class="pl-pds">&quot;</span></span>)</td>
       </tr>
       <tr>
         <td id="L45" class="blob-num js-line-number" data-line-number="45"></td>
-        <td id="LC45" class="blob-code blob-code-inner js-file-line">    - <span class="pl-ent">upload</span>: <span class="pl-s">$(Build.ArtifactStagingDirectory)</span></td>
-      </tr>
-      <tr>
-        <td id="L46" class="blob-num js-line-number" data-line-number="46"></td>
-        <td id="LC46" class="blob-code blob-code-inner js-file-line">      <span class="pl-ent">artifact</span>: <span class="pl-s">drop</span></td>
-      </tr>
-      <tr>
-        <td id="L47" class="blob-num js-line-number" data-line-number="47"></td>
-        <td id="LC47" class="blob-code blob-code-inner js-file-line">
+        <td id="LC45" class="blob-code blob-code-inner js-file-line">
 </td>
       </tr>
       <tr>
+        <td id="L46" class="blob-num js-line-number" data-line-number="46"></td>
+        <td id="LC46" class="blob-code blob-code-inner js-file-line"><span class="pl-k">@</span><span class="pl-c"><span class="pl-k">REM</span> Execute a user defined script before this one</span></td>
+      </tr>
+      <tr>
+        <td id="L47" class="blob-num js-line-number" data-line-number="47"></td>
+        <td id="LC47" class="blob-code blob-code-inner js-file-line"><span class="pl-k">if</span> <span class="pl-k">not</span> <span class="pl-s"><span class="pl-pds">&quot;</span><span class="pl-smi">%MAVEN_SKIP_RC%</span><span class="pl-pds">&quot;</span></span> <span class="pl-k">==</span> <span class="pl-s"><span class="pl-pds">&quot;</span><span class="pl-pds">&quot;</span></span> <span class="pl-k">goto</span> skipRcPre</td>
+      </tr>
+      <tr>
         <td id="L48" class="blob-num js-line-number" data-line-number="48"></td>
-        <td id="LC48" class="blob-code blob-code-inner js-file-line">- <span class="pl-ent">stage</span>: <span class="pl-s">Deploy</span></td>
+        <td id="LC48" class="blob-code blob-code-inner js-file-line"><span class="pl-k">@</span><span class="pl-c"><span class="pl-k">REM</span> check for pre script, once with legacy .bat ending and once with .cmd ending</span></td>
       </tr>
       <tr>
         <td id="L49" class="blob-num js-line-number" data-line-number="49"></td>
-        <td id="LC49" class="blob-code blob-code-inner js-file-line">  <span class="pl-ent">displayName</span>: <span class="pl-s">Deploy stage</span></td>
+        <td id="LC49" class="blob-code blob-code-inner js-file-line"><span class="pl-k">if</span> <span class="pl-k">exist</span> <span class="pl-s"><span class="pl-pds">&quot;</span><span class="pl-smi">%HOME%</span>\mavenrc_pre.bat<span class="pl-pds">&quot;</span></span> <span class="pl-k">call</span> <span class="pl-s"><span class="pl-pds">&quot;</span><span class="pl-smi">%HOME%</span>\mavenrc_pre.bat<span class="pl-pds">&quot;</span></span></td>
       </tr>
       <tr>
         <td id="L50" class="blob-num js-line-number" data-line-number="50"></td>
-        <td id="LC50" class="blob-code blob-code-inner js-file-line">  <span class="pl-ent">dependsOn</span>: <span class="pl-s">Build</span></td>
+        <td id="LC50" class="blob-code blob-code-inner js-file-line"><span class="pl-k">if</span> <span class="pl-k">exist</span> <span class="pl-s"><span class="pl-pds">&quot;</span><span class="pl-smi">%HOME%</span>\mavenrc_pre.cmd<span class="pl-pds">&quot;</span></span> <span class="pl-k">call</span> <span class="pl-s"><span class="pl-pds">&quot;</span><span class="pl-smi">%HOME%</span>\mavenrc_pre.cmd<span class="pl-pds">&quot;</span></span></td>
       </tr>
       <tr>
         <td id="L51" class="blob-num js-line-number" data-line-number="51"></td>
-        <td id="LC51" class="blob-code blob-code-inner js-file-line">  <span class="pl-ent">condition</span>: <span class="pl-s">succeeded()</span></td>
+        <td id="LC51" class="blob-code blob-code-inner js-file-line">:<span class="pl-k">skipRcPre</span></td>
       </tr>
       <tr>
         <td id="L52" class="blob-num js-line-number" data-line-number="52"></td>
-        <td id="LC52" class="blob-code blob-code-inner js-file-line">  <span class="pl-ent">jobs</span>:</td>
+        <td id="LC52" class="blob-code blob-code-inner js-file-line">
+</td>
       </tr>
       <tr>
         <td id="L53" class="blob-num js-line-number" data-line-number="53"></td>
-        <td id="LC53" class="blob-code blob-code-inner js-file-line">  - <span class="pl-ent">deployment</span>: <span class="pl-s">DeployLinuxWebApp</span></td>
+        <td id="LC53" class="blob-code blob-code-inner js-file-line"><span class="pl-k">@</span><span class="pl-k">setlocal</span></td>
       </tr>
       <tr>
         <td id="L54" class="blob-num js-line-number" data-line-number="54"></td>
-        <td id="LC54" class="blob-code blob-code-inner js-file-line">    <span class="pl-ent">displayName</span>: <span class="pl-s">Deploy Linux Web App</span></td>
+        <td id="LC54" class="blob-code blob-code-inner js-file-line">
+</td>
       </tr>
       <tr>
         <td id="L55" class="blob-num js-line-number" data-line-number="55"></td>
-        <td id="LC55" class="blob-code blob-code-inner js-file-line">    <span class="pl-ent">environment</span>: <span class="pl-s">$(environmentName)</span></td>
+        <td id="LC55" class="blob-code blob-code-inner js-file-line"><span class="pl-k">set</span> <span class="pl-smi">ERROR_CODE</span><span class="pl-k">=</span><span class="pl-c1">0</span></td>
       </tr>
       <tr>
         <td id="L56" class="blob-num js-line-number" data-line-number="56"></td>
-        <td id="LC56" class="blob-code blob-code-inner js-file-line">    <span class="pl-ent">pool</span>: </td>
+        <td id="LC56" class="blob-code blob-code-inner js-file-line">
+</td>
       </tr>
       <tr>
         <td id="L57" class="blob-num js-line-number" data-line-number="57"></td>
-        <td id="LC57" class="blob-code blob-code-inner js-file-line">      <span class="pl-ent">vmImage</span>: <span class="pl-s">$(vmImageName)</span></td>
+        <td id="LC57" class="blob-code blob-code-inner js-file-line"><span class="pl-k">@</span><span class="pl-c"><span class="pl-k">REM</span> To isolate internal variables from possible post scripts, we use another setlocal</span></td>
       </tr>
       <tr>
         <td id="L58" class="blob-num js-line-number" data-line-number="58"></td>
-        <td id="LC58" class="blob-code blob-code-inner js-file-line">    <span class="pl-ent">strategy</span>:</td>
+        <td id="LC58" class="blob-code blob-code-inner js-file-line"><span class="pl-k">@</span><span class="pl-k">setlocal</span></td>
       </tr>
       <tr>
         <td id="L59" class="blob-num js-line-number" data-line-number="59"></td>
-        <td id="LC59" class="blob-code blob-code-inner js-file-line">      <span class="pl-ent">runOnce</span>:</td>
+        <td id="LC59" class="blob-code blob-code-inner js-file-line">
+</td>
       </tr>
       <tr>
         <td id="L60" class="blob-num js-line-number" data-line-number="60"></td>
-        <td id="LC60" class="blob-code blob-code-inner js-file-line">        <span class="pl-ent">deploy</span>:</td>
+        <td id="LC60" class="blob-code blob-code-inner js-file-line"><span class="pl-k">@</span><span class="pl-c"><span class="pl-k">REM</span> ==== START VALIDATION ====</span></td>
       </tr>
       <tr>
         <td id="L61" class="blob-num js-line-number" data-line-number="61"></td>
-        <td id="LC61" class="blob-code blob-code-inner js-file-line">          <span class="pl-ent">steps</span>:</td>
+        <td id="LC61" class="blob-code blob-code-inner js-file-line"><span class="pl-k">if</span> <span class="pl-k">not</span> <span class="pl-s"><span class="pl-pds">&quot;</span><span class="pl-smi">%JAVA_HOME%</span><span class="pl-pds">&quot;</span></span> <span class="pl-k">==</span> <span class="pl-s"><span class="pl-pds">&quot;</span><span class="pl-pds">&quot;</span></span> <span class="pl-k">goto</span> OkJHome</td>
       </tr>
       <tr>
         <td id="L62" class="blob-num js-line-number" data-line-number="62"></td>
-        <td id="LC62" class="blob-code blob-code-inner js-file-line">          - <span class="pl-ent">task</span>: <span class="pl-s">AzureWebApp@1</span></td>
+        <td id="LC62" class="blob-code blob-code-inner js-file-line">
+</td>
       </tr>
       <tr>
         <td id="L63" class="blob-num js-line-number" data-line-number="63"></td>
-        <td id="LC63" class="blob-code blob-code-inner js-file-line">            <span class="pl-ent">displayName</span>: <span class="pl-s"><span class="pl-pds">&#39;</span>Azure Web App Deploy: vsg-app<span class="pl-pds">&#39;</span></span></td>
+        <td id="LC63" class="blob-code blob-code-inner js-file-line"><span class="pl-k">echo</span>.</td>
       </tr>
       <tr>
         <td id="L64" class="blob-num js-line-number" data-line-number="64"></td>
-        <td id="LC64" class="blob-code blob-code-inner js-file-line">            <span class="pl-ent">inputs</span>:</td>
+        <td id="LC64" class="blob-code blob-code-inner js-file-line"><span class="pl-k">echo</span> Error: JAVA_HOME not found in your environment. <span class="pl-k">&gt;&amp;</span>2</td>
       </tr>
       <tr>
         <td id="L65" class="blob-num js-line-number" data-line-number="65"></td>
-        <td id="LC65" class="blob-code blob-code-inner js-file-line">              <span class="pl-ent">azureSubscription</span>: <span class="pl-s">$(azureSubscription)</span></td>
+        <td id="LC65" class="blob-code blob-code-inner js-file-line"><span class="pl-k">echo</span> Please set the JAVA_HOME variable in your environment to match the <span class="pl-k">&gt;&amp;</span>2</td>
       </tr>
       <tr>
         <td id="L66" class="blob-num js-line-number" data-line-number="66"></td>
-        <td id="LC66" class="blob-code blob-code-inner js-file-line">              <span class="pl-ent">appType</span>: <span class="pl-s">webAppLinux</span></td>
+        <td id="LC66" class="blob-code blob-code-inner js-file-line"><span class="pl-k">echo</span> location of your Java installation. <span class="pl-k">&gt;&amp;</span>2</td>
       </tr>
       <tr>
         <td id="L67" class="blob-num js-line-number" data-line-number="67"></td>
-        <td id="LC67" class="blob-code blob-code-inner js-file-line">              <span class="pl-ent">appName</span>: <span class="pl-s">$(webAppName)</span></td>
+        <td id="LC67" class="blob-code blob-code-inner js-file-line"><span class="pl-k">echo</span>.</td>
       </tr>
       <tr>
         <td id="L68" class="blob-num js-line-number" data-line-number="68"></td>
-        <td id="LC68" class="blob-code blob-code-inner js-file-line">              <span class="pl-ent">package</span>: <span class="pl-s"><span class="pl-pds">&#39;</span>$(Pipeline.Workspace)/drop/**/target/*.?(war|jar)<span class="pl-pds">&#39;</span></span></td>
+        <td id="LC68" class="blob-code blob-code-inner js-file-line"><span class="pl-k">goto</span> error</td>
+      </tr>
+      <tr>
+        <td id="L69" class="blob-num js-line-number" data-line-number="69"></td>
+        <td id="LC69" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L70" class="blob-num js-line-number" data-line-number="70"></td>
+        <td id="LC70" class="blob-code blob-code-inner js-file-line">:<span class="pl-k">OkJHome</span></td>
+      </tr>
+      <tr>
+        <td id="L71" class="blob-num js-line-number" data-line-number="71"></td>
+        <td id="LC71" class="blob-code blob-code-inner js-file-line"><span class="pl-k">if</span> <span class="pl-k">exist</span> <span class="pl-s"><span class="pl-pds">&quot;</span><span class="pl-smi">%JAVA_HOME%</span>\bin\java.exe<span class="pl-pds">&quot;</span></span> <span class="pl-k">goto</span> init</td>
+      </tr>
+      <tr>
+        <td id="L72" class="blob-num js-line-number" data-line-number="72"></td>
+        <td id="LC72" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L73" class="blob-num js-line-number" data-line-number="73"></td>
+        <td id="LC73" class="blob-code blob-code-inner js-file-line"><span class="pl-k">echo</span>.</td>
+      </tr>
+      <tr>
+        <td id="L74" class="blob-num js-line-number" data-line-number="74"></td>
+        <td id="LC74" class="blob-code blob-code-inner js-file-line"><span class="pl-k">echo</span> Error: JAVA_HOME is set to an invalid directory. <span class="pl-k">&gt;&amp;</span>2</td>
+      </tr>
+      <tr>
+        <td id="L75" class="blob-num js-line-number" data-line-number="75"></td>
+        <td id="LC75" class="blob-code blob-code-inner js-file-line"><span class="pl-k">echo</span> JAVA_HOME = <span class="pl-s"><span class="pl-pds">&quot;</span><span class="pl-smi">%JAVA_HOME%</span><span class="pl-pds">&quot;</span></span> <span class="pl-k">&gt;&amp;</span>2</td>
+      </tr>
+      <tr>
+        <td id="L76" class="blob-num js-line-number" data-line-number="76"></td>
+        <td id="LC76" class="blob-code blob-code-inner js-file-line"><span class="pl-k">echo</span> Please set the JAVA_HOME variable in your environment to match the <span class="pl-k">&gt;&amp;</span>2</td>
+      </tr>
+      <tr>
+        <td id="L77" class="blob-num js-line-number" data-line-number="77"></td>
+        <td id="LC77" class="blob-code blob-code-inner js-file-line"><span class="pl-k">echo</span> location of your Java installation. <span class="pl-k">&gt;&amp;</span>2</td>
+      </tr>
+      <tr>
+        <td id="L78" class="blob-num js-line-number" data-line-number="78"></td>
+        <td id="LC78" class="blob-code blob-code-inner js-file-line"><span class="pl-k">echo</span>.</td>
+      </tr>
+      <tr>
+        <td id="L79" class="blob-num js-line-number" data-line-number="79"></td>
+        <td id="LC79" class="blob-code blob-code-inner js-file-line"><span class="pl-k">goto</span> error</td>
+      </tr>
+      <tr>
+        <td id="L80" class="blob-num js-line-number" data-line-number="80"></td>
+        <td id="LC80" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L81" class="blob-num js-line-number" data-line-number="81"></td>
+        <td id="LC81" class="blob-code blob-code-inner js-file-line"><span class="pl-k">@</span><span class="pl-c"><span class="pl-k">REM</span> ==== END VALIDATION ====</span></td>
+      </tr>
+      <tr>
+        <td id="L82" class="blob-num js-line-number" data-line-number="82"></td>
+        <td id="LC82" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L83" class="blob-num js-line-number" data-line-number="83"></td>
+        <td id="LC83" class="blob-code blob-code-inner js-file-line">:<span class="pl-k">init</span></td>
+      </tr>
+      <tr>
+        <td id="L84" class="blob-num js-line-number" data-line-number="84"></td>
+        <td id="LC84" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L85" class="blob-num js-line-number" data-line-number="85"></td>
+        <td id="LC85" class="blob-code blob-code-inner js-file-line"><span class="pl-k">@</span><span class="pl-c"><span class="pl-k">REM</span> Find the project base dir, i.e. the directory that contains the folder &quot;.mvn&quot;.</span></td>
+      </tr>
+      <tr>
+        <td id="L86" class="blob-num js-line-number" data-line-number="86"></td>
+        <td id="LC86" class="blob-code blob-code-inner js-file-line"><span class="pl-k">@</span><span class="pl-c"><span class="pl-k">REM</span> Fallback to current working directory if not found.</span></td>
+      </tr>
+      <tr>
+        <td id="L87" class="blob-num js-line-number" data-line-number="87"></td>
+        <td id="LC87" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L88" class="blob-num js-line-number" data-line-number="88"></td>
+        <td id="LC88" class="blob-code blob-code-inner js-file-line"><span class="pl-k">set</span> <span class="pl-smi">MAVEN_PROJECTBASEDIR</span><span class="pl-k">=</span><span class="pl-smi">%MAVEN_BASEDIR%</span></td>
+      </tr>
+      <tr>
+        <td id="L89" class="blob-num js-line-number" data-line-number="89"></td>
+        <td id="LC89" class="blob-code blob-code-inner js-file-line"><span class="pl-k">IF</span> <span class="pl-k">NOT</span> <span class="pl-s"><span class="pl-pds">&quot;</span><span class="pl-smi">%MAVEN_PROJECTBASEDIR%</span><span class="pl-pds">&quot;</span></span><span class="pl-k">==</span><span class="pl-s"><span class="pl-pds">&quot;</span><span class="pl-pds">&quot;</span></span> <span class="pl-k">goto</span> endDetectBaseDir</td>
+      </tr>
+      <tr>
+        <td id="L90" class="blob-num js-line-number" data-line-number="90"></td>
+        <td id="LC90" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L91" class="blob-num js-line-number" data-line-number="91"></td>
+        <td id="LC91" class="blob-code blob-code-inner js-file-line"><span class="pl-k">set</span> <span class="pl-smi">EXEC_DIR</span><span class="pl-k">=</span><span class="pl-smi">%CD%</span></td>
+      </tr>
+      <tr>
+        <td id="L92" class="blob-num js-line-number" data-line-number="92"></td>
+        <td id="LC92" class="blob-code blob-code-inner js-file-line"><span class="pl-k">set</span> <span class="pl-smi">WDIR</span><span class="pl-k">=</span><span class="pl-smi">%EXEC_DIR%</span></td>
+      </tr>
+      <tr>
+        <td id="L93" class="blob-num js-line-number" data-line-number="93"></td>
+        <td id="LC93" class="blob-code blob-code-inner js-file-line">:<span class="pl-k">findBaseDir</span></td>
+      </tr>
+      <tr>
+        <td id="L94" class="blob-num js-line-number" data-line-number="94"></td>
+        <td id="LC94" class="blob-code blob-code-inner js-file-line"><span class="pl-k">IF</span> <span class="pl-k">EXIST</span> <span class="pl-s"><span class="pl-pds">&quot;</span><span class="pl-smi">%WDIR%</span><span class="pl-pds">&quot;</span></span>\.mvn <span class="pl-k">goto</span> baseDirFound</td>
+      </tr>
+      <tr>
+        <td id="L95" class="blob-num js-line-number" data-line-number="95"></td>
+        <td id="LC95" class="blob-code blob-code-inner js-file-line"><span class="pl-k">cd</span> ..</td>
+      </tr>
+      <tr>
+        <td id="L96" class="blob-num js-line-number" data-line-number="96"></td>
+        <td id="LC96" class="blob-code blob-code-inner js-file-line"><span class="pl-k">IF</span> <span class="pl-s"><span class="pl-pds">&quot;</span><span class="pl-smi">%WDIR%</span><span class="pl-pds">&quot;</span></span><span class="pl-k">==</span><span class="pl-s"><span class="pl-pds">&quot;</span><span class="pl-smi">%CD%</span><span class="pl-pds">&quot;</span></span> <span class="pl-k">goto</span> baseDirNotFound</td>
+      </tr>
+      <tr>
+        <td id="L97" class="blob-num js-line-number" data-line-number="97"></td>
+        <td id="LC97" class="blob-code blob-code-inner js-file-line"><span class="pl-k">set</span> <span class="pl-smi">WDIR</span><span class="pl-k">=</span><span class="pl-smi">%CD%</span></td>
+      </tr>
+      <tr>
+        <td id="L98" class="blob-num js-line-number" data-line-number="98"></td>
+        <td id="LC98" class="blob-code blob-code-inner js-file-line"><span class="pl-k">goto</span> findBaseDir</td>
+      </tr>
+      <tr>
+        <td id="L99" class="blob-num js-line-number" data-line-number="99"></td>
+        <td id="LC99" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L100" class="blob-num js-line-number" data-line-number="100"></td>
+        <td id="LC100" class="blob-code blob-code-inner js-file-line">:<span class="pl-k">baseDirFound</span></td>
+      </tr>
+      <tr>
+        <td id="L101" class="blob-num js-line-number" data-line-number="101"></td>
+        <td id="LC101" class="blob-code blob-code-inner js-file-line"><span class="pl-k">set</span> <span class="pl-smi">MAVEN_PROJECTBASEDIR</span><span class="pl-k">=</span><span class="pl-smi">%WDIR%</span></td>
+      </tr>
+      <tr>
+        <td id="L102" class="blob-num js-line-number" data-line-number="102"></td>
+        <td id="LC102" class="blob-code blob-code-inner js-file-line"><span class="pl-k">cd</span> <span class="pl-s"><span class="pl-pds">&quot;</span><span class="pl-smi">%EXEC_DIR%</span><span class="pl-pds">&quot;</span></span></td>
+      </tr>
+      <tr>
+        <td id="L103" class="blob-num js-line-number" data-line-number="103"></td>
+        <td id="LC103" class="blob-code blob-code-inner js-file-line"><span class="pl-k">goto</span> endDetectBaseDir</td>
+      </tr>
+      <tr>
+        <td id="L104" class="blob-num js-line-number" data-line-number="104"></td>
+        <td id="LC104" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L105" class="blob-num js-line-number" data-line-number="105"></td>
+        <td id="LC105" class="blob-code blob-code-inner js-file-line">:<span class="pl-k">baseDirNotFound</span></td>
+      </tr>
+      <tr>
+        <td id="L106" class="blob-num js-line-number" data-line-number="106"></td>
+        <td id="LC106" class="blob-code blob-code-inner js-file-line"><span class="pl-k">set</span> <span class="pl-smi">MAVEN_PROJECTBASEDIR</span><span class="pl-k">=</span><span class="pl-smi">%EXEC_DIR%</span></td>
+      </tr>
+      <tr>
+        <td id="L107" class="blob-num js-line-number" data-line-number="107"></td>
+        <td id="LC107" class="blob-code blob-code-inner js-file-line"><span class="pl-k">cd</span> <span class="pl-s"><span class="pl-pds">&quot;</span><span class="pl-smi">%EXEC_DIR%</span><span class="pl-pds">&quot;</span></span></td>
+      </tr>
+      <tr>
+        <td id="L108" class="blob-num js-line-number" data-line-number="108"></td>
+        <td id="LC108" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L109" class="blob-num js-line-number" data-line-number="109"></td>
+        <td id="LC109" class="blob-code blob-code-inner js-file-line">:<span class="pl-k">endDetectBaseDir</span></td>
+      </tr>
+      <tr>
+        <td id="L110" class="blob-num js-line-number" data-line-number="110"></td>
+        <td id="LC110" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L111" class="blob-num js-line-number" data-line-number="111"></td>
+        <td id="LC111" class="blob-code blob-code-inner js-file-line"><span class="pl-k">IF</span> <span class="pl-k">NOT</span> <span class="pl-k">EXIST</span> <span class="pl-s"><span class="pl-pds">&quot;</span><span class="pl-smi">%MAVEN_PROJECTBASEDIR%</span>\.mvn\jvm.config<span class="pl-pds">&quot;</span></span> <span class="pl-k">goto</span> endReadAdditionalConfig</td>
+      </tr>
+      <tr>
+        <td id="L112" class="blob-num js-line-number" data-line-number="112"></td>
+        <td id="LC112" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L113" class="blob-num js-line-number" data-line-number="113"></td>
+        <td id="LC113" class="blob-code blob-code-inner js-file-line"><span class="pl-k">@</span>setlocal EnableExtensions EnableDelayedExpansion</td>
+      </tr>
+      <tr>
+        <td id="L114" class="blob-num js-line-number" data-line-number="114"></td>
+        <td id="LC114" class="blob-code blob-code-inner js-file-line"><span class="pl-k">for</span> /F <span class="pl-s"><span class="pl-pds">&quot;</span>usebackq delims=<span class="pl-pds">&quot;</span></span> <span class="pl-cce">%%</span>a in (<span class="pl-s"><span class="pl-pds">&quot;</span><span class="pl-smi">%MAVEN_PROJECTBASEDIR%</span>\.mvn\jvm.config<span class="pl-pds">&quot;</span></span>) do <span class="pl-k">set</span> <span class="pl-smi">JVM_CONFIG_MAVEN_PROPS</span><span class="pl-k">=</span><span class="pl-smi">!JVM_CONFIG_MAVEN_PROPS!</span> <span class="pl-cce">%%</span>a</td>
+      </tr>
+      <tr>
+        <td id="L115" class="blob-num js-line-number" data-line-number="115"></td>
+        <td id="LC115" class="blob-code blob-code-inner js-file-line"><span class="pl-k">@</span><span class="pl-k">endlocal</span> <span class="pl-k">&amp;</span> <span class="pl-k">set</span> <span class="pl-smi">JVM_CONFIG_MAVEN_PROPS</span><span class="pl-k">=</span><span class="pl-smi">%JVM_CONFIG_MAVEN_PROPS%</span></td>
+      </tr>
+      <tr>
+        <td id="L116" class="blob-num js-line-number" data-line-number="116"></td>
+        <td id="LC116" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L117" class="blob-num js-line-number" data-line-number="117"></td>
+        <td id="LC117" class="blob-code blob-code-inner js-file-line">:<span class="pl-k">endReadAdditionalConfig</span></td>
+      </tr>
+      <tr>
+        <td id="L118" class="blob-num js-line-number" data-line-number="118"></td>
+        <td id="LC118" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L119" class="blob-num js-line-number" data-line-number="119"></td>
+        <td id="LC119" class="blob-code blob-code-inner js-file-line"><span class="pl-k">SET</span> <span class="pl-smi">MAVEN_JAVA_EXE</span><span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">&quot;</span><span class="pl-smi">%JAVA_HOME%</span>\bin\java.exe<span class="pl-pds">&quot;</span></span></td>
+      </tr>
+      <tr>
+        <td id="L120" class="blob-num js-line-number" data-line-number="120"></td>
+        <td id="LC120" class="blob-code blob-code-inner js-file-line"><span class="pl-k">set</span> <span class="pl-smi">WRAPPER_JAR</span><span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">&quot;</span><span class="pl-smi">%MAVEN_PROJECTBASEDIR%</span>\.mvn\wrapper\maven-wrapper.jar<span class="pl-pds">&quot;</span></span></td>
+      </tr>
+      <tr>
+        <td id="L121" class="blob-num js-line-number" data-line-number="121"></td>
+        <td id="LC121" class="blob-code blob-code-inner js-file-line"><span class="pl-k">set</span> <span class="pl-smi">WRAPPER_LAUNCHER</span><span class="pl-k">=</span>org.apache.maven.wrapper.MavenWrapperMain</td>
+      </tr>
+      <tr>
+        <td id="L122" class="blob-num js-line-number" data-line-number="122"></td>
+        <td id="LC122" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L123" class="blob-num js-line-number" data-line-number="123"></td>
+        <td id="LC123" class="blob-code blob-code-inner js-file-line"><span class="pl-k">set</span> <span class="pl-smi">DOWNLOAD_URL</span><span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">&quot;</span>https://repo.maven.apache.org/maven2/io/takari/maven-wrapper/0.5.4/maven-wrapper-0.5.4.jar<span class="pl-pds">&quot;</span></span></td>
+      </tr>
+      <tr>
+        <td id="L124" class="blob-num js-line-number" data-line-number="124"></td>
+        <td id="LC124" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L125" class="blob-num js-line-number" data-line-number="125"></td>
+        <td id="LC125" class="blob-code blob-code-inner js-file-line"><span class="pl-k">FOR</span> /F <span class="pl-s"><span class="pl-pds">&quot;</span>tokens=1,2 delims==<span class="pl-pds">&quot;</span></span> <span class="pl-cce">%%</span>A IN (<span class="pl-s"><span class="pl-pds">&quot;</span><span class="pl-smi">%MAVEN_PROJECTBASEDIR%</span>\.mvn\wrapper\maven-wrapper.properties<span class="pl-pds">&quot;</span></span>) DO (</td>
+      </tr>
+      <tr>
+        <td id="L126" class="blob-num js-line-number" data-line-number="126"></td>
+        <td id="LC126" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">IF</span> <span class="pl-s"><span class="pl-pds">&quot;</span><span class="pl-cce">%%</span>A<span class="pl-pds">&quot;</span></span><span class="pl-k">==</span><span class="pl-s"><span class="pl-pds">&quot;</span>wrapperUrl<span class="pl-pds">&quot;</span></span> <span class="pl-k">SET</span> <span class="pl-smi">DOWNLOAD_URL</span><span class="pl-k">=</span><span class="pl-cce">%%</span>B</td>
+      </tr>
+      <tr>
+        <td id="L127" class="blob-num js-line-number" data-line-number="127"></td>
+        <td id="LC127" class="blob-code blob-code-inner js-file-line">)</td>
+      </tr>
+      <tr>
+        <td id="L128" class="blob-num js-line-number" data-line-number="128"></td>
+        <td id="LC128" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L129" class="blob-num js-line-number" data-line-number="129"></td>
+        <td id="LC129" class="blob-code blob-code-inner js-file-line"><span class="pl-k">@</span><span class="pl-c"><span class="pl-k">REM</span> Extension to allow automatically downloading the maven-wrapper.jar from Maven-central</span></td>
+      </tr>
+      <tr>
+        <td id="L130" class="blob-num js-line-number" data-line-number="130"></td>
+        <td id="LC130" class="blob-code blob-code-inner js-file-line"><span class="pl-k">@</span><span class="pl-c"><span class="pl-k">REM</span> This allows using the maven wrapper in projects that prohibit checking in binary data.</span></td>
+      </tr>
+      <tr>
+        <td id="L131" class="blob-num js-line-number" data-line-number="131"></td>
+        <td id="LC131" class="blob-code blob-code-inner js-file-line"><span class="pl-k">if</span> <span class="pl-k">exist</span> <span class="pl-smi">%WRAPPER_JAR%</span> (</td>
+      </tr>
+      <tr>
+        <td id="L132" class="blob-num js-line-number" data-line-number="132"></td>
+        <td id="LC132" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">if</span> <span class="pl-s"><span class="pl-pds">&quot;</span><span class="pl-smi">%MVNW_VERBOSE%</span><span class="pl-pds">&quot;</span></span> <span class="pl-k">==</span> <span class="pl-s"><span class="pl-pds">&quot;</span>true<span class="pl-pds">&quot;</span></span> (</td>
+      </tr>
+      <tr>
+        <td id="L133" class="blob-num js-line-number" data-line-number="133"></td>
+        <td id="LC133" class="blob-code blob-code-inner js-file-line">        <span class="pl-k">echo</span> Found <span class="pl-smi">%WRAPPER_JAR%</span></td>
+      </tr>
+      <tr>
+        <td id="L134" class="blob-num js-line-number" data-line-number="134"></td>
+        <td id="LC134" class="blob-code blob-code-inner js-file-line">    )</td>
+      </tr>
+      <tr>
+        <td id="L135" class="blob-num js-line-number" data-line-number="135"></td>
+        <td id="LC135" class="blob-code blob-code-inner js-file-line">) <span class="pl-k">else</span> (</td>
+      </tr>
+      <tr>
+        <td id="L136" class="blob-num js-line-number" data-line-number="136"></td>
+        <td id="LC136" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">if</span> <span class="pl-k">not</span> <span class="pl-s"><span class="pl-pds">&quot;</span><span class="pl-smi">%MVNW_REPOURL%</span><span class="pl-pds">&quot;</span></span> <span class="pl-k">==</span> <span class="pl-s"><span class="pl-pds">&quot;</span><span class="pl-pds">&quot;</span></span> (</td>
+      </tr>
+      <tr>
+        <td id="L137" class="blob-num js-line-number" data-line-number="137"></td>
+        <td id="LC137" class="blob-code blob-code-inner js-file-line">        <span class="pl-k">SET</span> <span class="pl-smi">DOWNLOAD_URL</span><span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">&quot;</span><span class="pl-smi">%MVNW_REPOURL%</span>/io/takari/maven-wrapper/0.5.4/maven-wrapper-0.5.4.jar<span class="pl-pds">&quot;</span></span></td>
+      </tr>
+      <tr>
+        <td id="L138" class="blob-num js-line-number" data-line-number="138"></td>
+        <td id="LC138" class="blob-code blob-code-inner js-file-line">    )</td>
+      </tr>
+      <tr>
+        <td id="L139" class="blob-num js-line-number" data-line-number="139"></td>
+        <td id="LC139" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">if</span> <span class="pl-s"><span class="pl-pds">&quot;</span><span class="pl-smi">%MVNW_VERBOSE%</span><span class="pl-pds">&quot;</span></span> <span class="pl-k">==</span> <span class="pl-s"><span class="pl-pds">&quot;</span>true<span class="pl-pds">&quot;</span></span> (</td>
+      </tr>
+      <tr>
+        <td id="L140" class="blob-num js-line-number" data-line-number="140"></td>
+        <td id="LC140" class="blob-code blob-code-inner js-file-line">        <span class="pl-k">echo</span> Couldn&#39;t find <span class="pl-smi">%WRAPPER_JAR%</span>, downloading it ...</td>
+      </tr>
+      <tr>
+        <td id="L141" class="blob-num js-line-number" data-line-number="141"></td>
+        <td id="LC141" class="blob-code blob-code-inner js-file-line">        <span class="pl-k">echo</span> Downloading from: <span class="pl-smi">%DOWNLOAD_URL%</span></td>
+      </tr>
+      <tr>
+        <td id="L142" class="blob-num js-line-number" data-line-number="142"></td>
+        <td id="LC142" class="blob-code blob-code-inner js-file-line">    )</td>
+      </tr>
+      <tr>
+        <td id="L143" class="blob-num js-line-number" data-line-number="143"></td>
+        <td id="LC143" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L144" class="blob-num js-line-number" data-line-number="144"></td>
+        <td id="LC144" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">powershell</span> -Command <span class="pl-s"><span class="pl-pds">&quot;</span>&amp;{<span class="pl-pds">&quot;</span></span><span class="pl-cce">^</span></td>
+      </tr>
+      <tr>
+        <td id="L145" class="blob-num js-line-number" data-line-number="145"></td>
+        <td id="LC145" class="blob-code blob-code-inner js-file-line">		<span class="pl-s"><span class="pl-pds">&quot;</span>$webclient = new-object System.Net.WebClient;<span class="pl-pds">&quot;</span></span><span class="pl-cce">^</span></td>
+      </tr>
+      <tr>
+        <td id="L146" class="blob-num js-line-number" data-line-number="146"></td>
+        <td id="LC146" class="blob-code blob-code-inner js-file-line">		<span class="pl-s"><span class="pl-pds">&quot;</span>if (-not ([string]::IsNullOrEmpty(&#39;<span class="pl-smi">%MVNW_USERNAME%</span>&#39;) -and [string]::IsNullOrEmpty(&#39;<span class="pl-smi">%MVNW_PASSWORD%</span>&#39;))) {<span class="pl-pds">&quot;</span></span><span class="pl-cce">^</span></td>
+      </tr>
+      <tr>
+        <td id="L147" class="blob-num js-line-number" data-line-number="147"></td>
+        <td id="LC147" class="blob-code blob-code-inner js-file-line">		<span class="pl-s"><span class="pl-pds">&quot;</span>$webclient.Credentials = new-object System.Net.NetworkCredential(&#39;<span class="pl-smi">%MVNW_USERNAME%</span>&#39;, &#39;<span class="pl-smi">%MVNW_PASSWORD%</span>&#39;);<span class="pl-pds">&quot;</span></span><span class="pl-cce">^</span></td>
+      </tr>
+      <tr>
+        <td id="L148" class="blob-num js-line-number" data-line-number="148"></td>
+        <td id="LC148" class="blob-code blob-code-inner js-file-line">		<span class="pl-s"><span class="pl-pds">&quot;</span>}<span class="pl-pds">&quot;</span></span><span class="pl-cce">^</span></td>
+      </tr>
+      <tr>
+        <td id="L149" class="blob-num js-line-number" data-line-number="149"></td>
+        <td id="LC149" class="blob-code blob-code-inner js-file-line">		<span class="pl-s"><span class="pl-pds">&quot;</span>[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12; $webclient.DownloadFile(&#39;<span class="pl-smi">%DOWNLOAD_URL%</span>&#39;, &#39;<span class="pl-smi">%WRAPPER_JAR%</span>&#39;)<span class="pl-pds">&quot;</span></span><span class="pl-cce">^</span></td>
+      </tr>
+      <tr>
+        <td id="L150" class="blob-num js-line-number" data-line-number="150"></td>
+        <td id="LC150" class="blob-code blob-code-inner js-file-line">		<span class="pl-s"><span class="pl-pds">&quot;</span>}<span class="pl-pds">&quot;</span></span></td>
+      </tr>
+      <tr>
+        <td id="L151" class="blob-num js-line-number" data-line-number="151"></td>
+        <td id="LC151" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">if</span> <span class="pl-s"><span class="pl-pds">&quot;</span><span class="pl-smi">%MVNW_VERBOSE%</span><span class="pl-pds">&quot;</span></span> <span class="pl-k">==</span> <span class="pl-s"><span class="pl-pds">&quot;</span>true<span class="pl-pds">&quot;</span></span> (</td>
+      </tr>
+      <tr>
+        <td id="L152" class="blob-num js-line-number" data-line-number="152"></td>
+        <td id="LC152" class="blob-code blob-code-inner js-file-line">        <span class="pl-k">echo</span> Finished downloading <span class="pl-smi">%WRAPPER_JAR%</span></td>
+      </tr>
+      <tr>
+        <td id="L153" class="blob-num js-line-number" data-line-number="153"></td>
+        <td id="LC153" class="blob-code blob-code-inner js-file-line">    )</td>
+      </tr>
+      <tr>
+        <td id="L154" class="blob-num js-line-number" data-line-number="154"></td>
+        <td id="LC154" class="blob-code blob-code-inner js-file-line">)</td>
+      </tr>
+      <tr>
+        <td id="L155" class="blob-num js-line-number" data-line-number="155"></td>
+        <td id="LC155" class="blob-code blob-code-inner js-file-line"><span class="pl-k">@</span><span class="pl-c"><span class="pl-k">REM</span> End of extension</span></td>
+      </tr>
+      <tr>
+        <td id="L156" class="blob-num js-line-number" data-line-number="156"></td>
+        <td id="LC156" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L157" class="blob-num js-line-number" data-line-number="157"></td>
+        <td id="LC157" class="blob-code blob-code-inner js-file-line"><span class="pl-k">@</span><span class="pl-c"><span class="pl-k">REM</span> Provide a &quot;standardized&quot; way to retrieve the CLI args that will</span></td>
+      </tr>
+      <tr>
+        <td id="L158" class="blob-num js-line-number" data-line-number="158"></td>
+        <td id="LC158" class="blob-code blob-code-inner js-file-line"><span class="pl-k">@</span><span class="pl-c"><span class="pl-k">REM</span> work with both Windows and non-Windows executions.</span></td>
+      </tr>
+      <tr>
+        <td id="L159" class="blob-num js-line-number" data-line-number="159"></td>
+        <td id="LC159" class="blob-code blob-code-inner js-file-line"><span class="pl-k">set</span> <span class="pl-smi">MAVEN_CMD_LINE_ARGS</span><span class="pl-k">=</span>%<span class="pl-v">*</span></td>
+      </tr>
+      <tr>
+        <td id="L160" class="blob-num js-line-number" data-line-number="160"></td>
+        <td id="LC160" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L161" class="blob-num js-line-number" data-line-number="161"></td>
+        <td id="LC161" class="blob-code blob-code-inner js-file-line"><span class="pl-smi">%MAVEN_JAVA_EXE%</span> <span class="pl-smi">%JVM_CONFIG_MAVEN_PROPS%</span> <span class="pl-smi">%MAVEN_OPTS%</span> <span class="pl-smi">%MAVEN_DEBUG_OPTS%</span> -classpath <span class="pl-smi">%WRAPPER_JAR%</span> <span class="pl-s"><span class="pl-pds">&quot;</span>-Dmaven.multiModuleProjectDirectory=<span class="pl-smi">%MAVEN_PROJECTBASEDIR%</span><span class="pl-pds">&quot;</span></span> <span class="pl-smi">%WRAPPER_LAUNCHER%</span> <span class="pl-smi">%MAVEN_CONFIG%</span> %<span class="pl-v">*</span></td>
+      </tr>
+      <tr>
+        <td id="L162" class="blob-num js-line-number" data-line-number="162"></td>
+        <td id="LC162" class="blob-code blob-code-inner js-file-line"><span class="pl-k">if</span> <span class="pl-k">ERRORLEVEL</span> <span class="pl-c1">1</span> <span class="pl-k">goto</span> error</td>
+      </tr>
+      <tr>
+        <td id="L163" class="blob-num js-line-number" data-line-number="163"></td>
+        <td id="LC163" class="blob-code blob-code-inner js-file-line"><span class="pl-k">goto</span> end</td>
+      </tr>
+      <tr>
+        <td id="L164" class="blob-num js-line-number" data-line-number="164"></td>
+        <td id="LC164" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L165" class="blob-num js-line-number" data-line-number="165"></td>
+        <td id="LC165" class="blob-code blob-code-inner js-file-line">:<span class="pl-k">error</span></td>
+      </tr>
+      <tr>
+        <td id="L166" class="blob-num js-line-number" data-line-number="166"></td>
+        <td id="LC166" class="blob-code blob-code-inner js-file-line"><span class="pl-k">set</span> <span class="pl-smi">ERROR_CODE</span><span class="pl-k">=</span><span class="pl-c1">1</span></td>
+      </tr>
+      <tr>
+        <td id="L167" class="blob-num js-line-number" data-line-number="167"></td>
+        <td id="LC167" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L168" class="blob-num js-line-number" data-line-number="168"></td>
+        <td id="LC168" class="blob-code blob-code-inner js-file-line">:<span class="pl-k">end</span></td>
+      </tr>
+      <tr>
+        <td id="L169" class="blob-num js-line-number" data-line-number="169"></td>
+        <td id="LC169" class="blob-code blob-code-inner js-file-line"><span class="pl-k">@</span><span class="pl-k">endlocal</span> <span class="pl-k">&amp;</span> <span class="pl-k">set</span> <span class="pl-smi">ERROR_CODE</span><span class="pl-k">=</span><span class="pl-smi">%ERROR_CODE%</span></td>
+      </tr>
+      <tr>
+        <td id="L170" class="blob-num js-line-number" data-line-number="170"></td>
+        <td id="LC170" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L171" class="blob-num js-line-number" data-line-number="171"></td>
+        <td id="LC171" class="blob-code blob-code-inner js-file-line"><span class="pl-k">if</span> <span class="pl-k">not</span> <span class="pl-s"><span class="pl-pds">&quot;</span><span class="pl-smi">%MAVEN_SKIP_RC%</span><span class="pl-pds">&quot;</span></span> <span class="pl-k">==</span> <span class="pl-s"><span class="pl-pds">&quot;</span><span class="pl-pds">&quot;</span></span> <span class="pl-k">goto</span> skipRcPost</td>
+      </tr>
+      <tr>
+        <td id="L172" class="blob-num js-line-number" data-line-number="172"></td>
+        <td id="LC172" class="blob-code blob-code-inner js-file-line"><span class="pl-k">@</span><span class="pl-c"><span class="pl-k">REM</span> check for post script, once with legacy .bat ending and once with .cmd ending</span></td>
+      </tr>
+      <tr>
+        <td id="L173" class="blob-num js-line-number" data-line-number="173"></td>
+        <td id="LC173" class="blob-code blob-code-inner js-file-line"><span class="pl-k">if</span> <span class="pl-k">exist</span> <span class="pl-s"><span class="pl-pds">&quot;</span><span class="pl-smi">%HOME%</span>\mavenrc_post.bat<span class="pl-pds">&quot;</span></span> <span class="pl-k">call</span> <span class="pl-s"><span class="pl-pds">&quot;</span><span class="pl-smi">%HOME%</span>\mavenrc_post.bat<span class="pl-pds">&quot;</span></span></td>
+      </tr>
+      <tr>
+        <td id="L174" class="blob-num js-line-number" data-line-number="174"></td>
+        <td id="LC174" class="blob-code blob-code-inner js-file-line"><span class="pl-k">if</span> <span class="pl-k">exist</span> <span class="pl-s"><span class="pl-pds">&quot;</span><span class="pl-smi">%HOME%</span>\mavenrc_post.cmd<span class="pl-pds">&quot;</span></span> <span class="pl-k">call</span> <span class="pl-s"><span class="pl-pds">&quot;</span><span class="pl-smi">%HOME%</span>\mavenrc_post.cmd<span class="pl-pds">&quot;</span></span></td>
+      </tr>
+      <tr>
+        <td id="L175" class="blob-num js-line-number" data-line-number="175"></td>
+        <td id="LC175" class="blob-code blob-code-inner js-file-line">:<span class="pl-k">skipRcPost</span></td>
+      </tr>
+      <tr>
+        <td id="L176" class="blob-num js-line-number" data-line-number="176"></td>
+        <td id="LC176" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L177" class="blob-num js-line-number" data-line-number="177"></td>
+        <td id="LC177" class="blob-code blob-code-inner js-file-line"><span class="pl-k">@</span><span class="pl-c"><span class="pl-k">REM</span> pause the script if MAVEN_BATCH_PAUSE is set to &#39;on&#39;</span></td>
+      </tr>
+      <tr>
+        <td id="L178" class="blob-num js-line-number" data-line-number="178"></td>
+        <td id="LC178" class="blob-code blob-code-inner js-file-line"><span class="pl-k">if</span> <span class="pl-s"><span class="pl-pds">&quot;</span><span class="pl-smi">%MAVEN_BATCH_PAUSE%</span><span class="pl-pds">&quot;</span></span> <span class="pl-k">==</span> <span class="pl-s"><span class="pl-pds">&quot;</span>on<span class="pl-pds">&quot;</span></span> <span class="pl-k">pause</span></td>
+      </tr>
+      <tr>
+        <td id="L179" class="blob-num js-line-number" data-line-number="179"></td>
+        <td id="LC179" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L180" class="blob-num js-line-number" data-line-number="180"></td>
+        <td id="LC180" class="blob-code blob-code-inner js-file-line"><span class="pl-k">if</span> <span class="pl-s"><span class="pl-pds">&quot;</span><span class="pl-smi">%MAVEN_TERMINATE_CMD%</span><span class="pl-pds">&quot;</span></span> <span class="pl-k">==</span> <span class="pl-s"><span class="pl-pds">&quot;</span>on<span class="pl-pds">&quot;</span></span> <span class="pl-k">exit</span> <span class="pl-smi">%ERROR_CODE%</span></td>
+      </tr>
+      <tr>
+        <td id="L181" class="blob-num js-line-number" data-line-number="181"></td>
+        <td id="LC181" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L182" class="blob-num js-line-number" data-line-number="182"></td>
+        <td id="LC182" class="blob-code blob-code-inner js-file-line"><span class="pl-k">exit</span> /B <span class="pl-smi">%ERROR_CODE%</span></td>
       </tr>
 </table>
 
@@ -1377,7 +1889,7 @@
             Copy permalink
           </clipboard-copy>
         </li>
-        <li><a class="dropdown-item js-update-url-with-hash" id="js-view-git-blame" role="menuitem" href="/govindvsg/spring-framework-petclinic/blame/64715a9ffb1eb2288a94584d18af233cc1439351/azure-pipelines.yml">View git blame</a></li>
+        <li><a class="dropdown-item js-update-url-with-hash" id="js-view-git-blame" role="menuitem" href="/govindvsg/spring-framework-petclinic/blame/64715a9ffb1eb2288a94584d18af233cc1439351/mvnw.cmd">View git blame</a></li>
       </ul>
     </details-menu>
   </details>
